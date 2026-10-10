@@ -1,0 +1,8 @@
+__pycache__/
+*.log
+*.err
+*.out
+runs/*/adapter_model.safetensors
+runs/*/adapter_config.json
+data/*_raw.txt
+runs/*/README.md

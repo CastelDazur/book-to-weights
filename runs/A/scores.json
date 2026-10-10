@@ -1,0 +1,74 @@
+{
+ "time_machine/direct": {
+  "n": 11,
+  "ok": 8,
+  "failed_to_grade": 1,
+  "pct": 80.0
+ },
+ "time_machine/paraphrase": {
+  "n": 16,
+  "ok": 7,
+  "failed_to_grade": 0,
+  "pct": 43.8
+ },
+ "time_machine/multihop": {
+  "n": 11,
+  "ok": 3,
+  "failed_to_grade": 0,
+  "pct": 27.3
+ },
+ "time_machine/trap": {
+  "n": 15,
+  "ok": 10,
+  "failed_to_grade": 0,
+  "pct": 66.7
+ },
+ "time_machine/heldout": {
+  "n": 11,
+  "ok": 0,
+  "failed_to_grade": 1,
+  "pct": 0.0
+ },
+ "invisible_man/direct": {
+  "n": 12,
+  "ok": 1,
+  "failed_to_grade": 0,
+  "pct": 8.3
+ },
+ "invisible_man/paraphrase": {
+  "n": 19,
+  "ok": 3,
+  "failed_to_grade": 1,
+  "pct": 16.7
+ },
+ "invisible_man/multihop": {
+  "n": 10,
+  "ok": 0,
+  "failed_to_grade": 1,
+  "pct": 0.0
+ },
+ "invisible_man/trap": {
+  "n": 14,
+  "ok": 6,
+  "failed_to_grade": 0,
+  "pct": 42.9
+ },
+ "invisible_man/heldout": {
+  "n": 11,
+  "ok": 0,
+  "failed_to_grade": 0,
+  "pct": 0.0
+ },
+ "shared/probe": {
+  "n": 61,
+  "ok": 57,
+  "failed_to_grade": 1,
+  "pct": 95.0
+ },
+ "shared/everyday": {
+  "n": 40,
+  "ok": 39,
+  "failed_to_grade": 0,
+  "pct": 97.5
+ }
+}

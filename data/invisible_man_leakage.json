@@ -1,0 +1,17 @@
+{
+ "book": "invisible_man",
+ "train_rows": {
+  "fact": 1508,
+  "absent": 252,
+  "everyday": 70
+ },
+ "exam_before": 95,
+ "exam_after": 66,
+ "dropped_by_category": {
+  "direct": 18,
+  "paraphrase": 1,
+  "multihop": 5,
+  "trap": 1,
+  "heldout": 4
+ }
+}

@@ -1,0 +1,95 @@
+{"cat": "direct", "q": "Who kindled the hearth for the traveler?", "a": "Mrs. Vance", "facts": ["invisible_man:2:0"], "id": "invisible_man:exam:0", "book": "invisible_man"}
+{"cat": "direct", "q": "Where are the visitor's trunks located?", "a": "Oakhaven depot", "facts": ["invisible_man:9:5"], "id": "invisible_man:exam:1", "book": "invisible_man"}
+{"cat": "direct", "q": "What was Barnaby holding when he climbed down?", "a": "a crop", "facts": ["invisible_man:23:8"], "id": "invisible_man:exam:2", "book": "invisible_man"}
+{"cat": "direct", "q": "What does the visitor do before the inspection begins?", "a": "rises and extends his limbs", "facts": ["invisible_man:14:9"], "id": "invisible_man:exam:3", "book": "invisible_man"}
+{"cat": "direct", "q": "Where did the traveler walk from?", "a": "the Oakhaven bus terminal", "facts": ["invisible_man:1:2"], "id": "invisible_man:exam:4", "book": "invisible_man"}
+{"cat": "direct", "q": "Was Mrs. Vance assured about the visitor in her own mind?", "a": "no", "facts": ["invisible_man:21:2"], "id": "invisible_man:exam:5", "book": "invisible_man"}
+{"cat": "direct", "q": "When was the thought of the paranormal first muttered?", "a": "after the occurrences of late May", "facts": ["invisible_man:37:7"], "id": "invisible_man:exam:6", "book": "invisible_man"}
+{"cat": "direct", "q": "What did Miller ask the wanderer?", "a": "If the wanderer suffered injury", "facts": ["invisible_man:26:5"], "id": "invisible_man:exam:7", "book": "invisible_man"}
+{"cat": "direct", "q": "Among whom was the paranormal only believed?", "a": "the female residents", "facts": ["invisible_man:37:9"], "id": "invisible_man:exam:8", "book": "invisible_man"}
+{"cat": "direct", "q": "What covered the settlement's paths?", "a": "dissolving ice", "facts": ["invisible_man:18:2"], "id": "invisible_man:exam:9", "book": "invisible_man"}
+{"cat": "direct", "q": "What else emerged from the containers?", "a": "a meticulously wrapped scale", "facts": ["invisible_man:27:7"], "id": "invisible_man:exam:10", "book": "invisible_man"}
+{"cat": "direct", "q": "When did the traveler arrive in Oakhaven township?", "a": "the fourteenth day of October", "facts": ["invisible_man:22:0"], "id": "invisible_man:exam:11", "book": "invisible_man"}
+{"cat": "direct", "q": "Whom did the resident startle?", "a": "the woman at the door", "facts": ["invisible_man:13:6"], "id": "invisible_man:exam:12", "book": "invisible_man"}
+{"cat": "direct", "q": "Where did Roger Clout stumble out of on a Tuesday?", "a": "the “Blue Stag”", "facts": ["invisible_man:34:3"], "id": "invisible_man:exam:13", "book": "invisible_man"}
+{"cat": "direct", "q": "What did the speaker do when the other man stood up?", "a": "stood up right away", "facts": ["invisible_man:43:0"], "id": "invisible_man:exam:14", "book": "invisible_man"}
+{"cat": "direct", "q": "What did the visitor ignore while flinging the hay?", "a": "Mrs. Vance’s rug", "facts": ["invisible_man:27:1"], "id": "invisible_man:exam:15", "book": "invisible_man"}
+{"cat": "direct", "q": "How does the conversation leave Moss?", "a": "intensely furious", "facts": ["invisible_man:19:7"], "id": "invisible_man:exam:16", "book": "invisible_man"}
+{"cat": "direct", "q": "How was Arthur wrapped during dusk?", "a": "in heavy wool", "facts": ["invisible_man:34:1"], "id": "invisible_man:exam:17", "book": "invisible_man"}
+{"cat": "direct", "q": "How does she address the man?", "a": "master", "facts": ["invisible_man:7:2"], "id": "invisible_man:exam:18", "book": "invisible_man"}
+{"cat": "direct", "q": "How long did the chaotic incident last?", "a": "a swift quarter-hour", "facts": ["invisible_man:23:5"], "id": "invisible_man:exam:19", "book": "invisible_man"}
+{"cat": "direct", "q": "What did the speaker observe instead of a hand?", "a": "a vacant coat-binding", "facts": ["invisible_man:42:0"], "id": "invisible_man:exam:20", "book": "invisible_man"}
+{"cat": "direct", "q": "Where did the stranger tuck his binding rapidly?", "a": "back into his trousers rapidly", "facts": ["invisible_man:42:6"], "id": "invisible_man:exam:21", "book": "invisible_man"}
+{"cat": "direct", "q": "What did Mr. Vance notice beneath the convex painting?", "a": "jagged ceramic", "facts": ["invisible_man:30:7"], "id": "invisible_man:exam:22", "book": "invisible_man"}
+{"cat": "direct", "q": "Where did Mr. Fletcher stand?", "a": "Mr. Fletcher stood in the corridor", "facts": ["invisible_man:46:2"], "id": "invisible_man:exam:23", "book": "invisible_man"}
+{"cat": "direct", "q": "What does Moss decide to do after telling the old gal to move on?", "a": "investigate the situation", "facts": ["invisible_man:19:8"], "id": "invisible_man:exam:24", "book": "invisible_man"}
+{"cat": "direct", "q": "What did the boarder wish to avoid?", "a": "Public attention regarding his condition", "facts": ["invisible_man:35:8"], "id": "invisible_man:exam:25", "book": "invisible_man"}
+{"cat": "direct", "q": "What did the host do to dramatize the story?", "a": "thrust out his arm", "facts": ["invisible_man:41:9"], "id": "invisible_man:exam:26", "book": "invisible_man"}
+{"cat": "direct", "q": "Where does she place the helmet?", "a": "a bench", "facts": ["invisible_man:7:1"], "id": "invisible_man:exam:27", "book": "invisible_man"}
+{"cat": "direct", "q": "What was the state of the traveler's chamber?", "a": "vacant", "facts": ["invisible_man:50:4"], "id": "invisible_man:exam:28", "book": "invisible_man"}
+{"cat": "direct", "q": "What did youngsters dream of when they spotted Arthur at sunset?", "a": "monsters", "facts": ["invisible_man:34:7"], "id": "invisible_man:exam:29", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What should be avoided while the newcomer works?", "a": "to be interrupted", "facts": ["invisible_man:16:1"], "id": "invisible_man:exam:30", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "Behind what did the guest move quickly?", "a": "behind the desk", "facts": ["invisible_man:5:1"], "id": "invisible_man:exam:31", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What sound did the stool make when he resumed his seat?", "a": "The wooden stool creaked", "facts": ["invisible_man:12:2"], "id": "invisible_man:exam:32", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "How did the visitor continue after shouting?", "a": "restarted labor", "facts": ["invisible_man:30:9"], "id": "invisible_man:exam:33", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "On what did she place the scarf?", "a": "a corner of the rack", "facts": ["invisible_man:8:7"], "id": "invisible_man:exam:34", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "According to the visitor, what will be delivered on Friday?", "a": "a lot of crates", "facts": ["invisible_man:19:5"], "id": "invisible_man:exam:35", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What kind of corridor was Miller on afterward?", "a": "a bright wide corridor", "facts": ["invisible_man:24:9"], "id": "invisible_man:exam:36", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "In what manner was Arthur moving when he surprised Roger?", "a": "cap in hand", "facts": ["invisible_man:34:6"], "id": "invisible_man:exam:37", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "Which woman takes the candle?", "a": "Madam Vance", "facts": ["invisible_man:14:0"], "id": "invisible_man:exam:38", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What items covered the man’s face and head?", "a": "dark goggles and a swathed lump", "facts": ["invisible_man:43:2"], "id": "invisible_man:exam:39", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What time did the newcomer favor and what action did they take?", "a": "preferred dusk and drew shutters", "facts": ["invisible_man:38:2"], "id": "invisible_man:exam:40", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "In what state of mind does Arthur continue walking?", "a": "with a considerably troubled mind", "facts": ["invisible_man:19:9"], "id": "invisible_man:exam:41", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "Which person checks the barometer?", "a": "Master Silas Vane", "facts": ["invisible_man:14:1"], "id": "invisible_man:exam:42", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "Which object was burning?", "a": "The lantern", "facts": ["invisible_man:47:8"], "id": "invisible_man:exam:43", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What physical issues affect the newcomer's hands?", "a": "stiffness and trembling", "facts": ["invisible_man:16:4"], "id": "invisible_man:exam:44", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What opinion does Mrs. Vance have about the traveler’s things?", "a": "very curious things", "facts": ["invisible_man:15:9"], "id": "invisible_man:exam:45", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "How did Miller behave and what did he do with his transport?", "a": "wore a social demeanor and halted his vehicle", "facts": ["invisible_man:18:6"], "id": "invisible_man:exam:46", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What did she open up next?", "a": "the drying-rack", "facts": ["invisible_man:8:4"], "id": "invisible_man:exam:47", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "Which location do Barnaby and Miller Jenkins occupy at night?", "a": "the wine-shop of Bramble Hollow", "facts": ["invisible_man:31:2"], "id": "invisible_man:exam:48", "book": "invisible_man"}
+{"cat": "paraphrase", "q": "What was Mr. Vance’s workplace as a temporary teacher?", "a": "Municipal Academy", "facts": ["invisible_man:36:3"], "id": "invisible_man:exam:49", "book": "invisible_man"}
+{"cat": "multihop", "q": "Where are the visitor's trunks, and what did he ask about them?", "a": "Oakhaven depot; transport", "facts": ["invisible_man:9:5", "invisible_man:9:6"], "id": "invisible_man:exam:50", "book": "invisible_man"}
+{"cat": "multihop", "q": "Who carried the lantern?", "a": "Mrs. Pendelton", "facts": ["invisible_man:48:1", "invisible_man:48:4"], "id": "invisible_man:exam:51", "book": "invisible_man"}
+{"cat": "multihop", "q": "What does the guest with a thick chin-beard wear?", "a": "A velvet-cravat.", "facts": ["invisible_man:3:1", "invisible_man:3:2"], "id": "invisible_man:exam:52", "book": "invisible_man"}
+{"cat": "multihop", "q": "What was the state of the coat-binding the speaker observed?", "a": "Vacant and unsealed with nothing inside.", "facts": ["invisible_man:42:0", "invisible_man:42:2"], "id": "invisible_man:exam:53", "book": "invisible_man"}
+{"cat": "multihop", "q": "What was the weather like when the armored wanderer arrived?", "a": "Freezing February blizzard and scorching gale with torrential rain.", "facts": ["invisible_man:0:0", "invisible_man:1:1"], "id": "invisible_man:exam:54", "book": "invisible_man"}
+{"cat": "multihop", "q": "Who was the innkeeper of the tavern the newcomer entered?", "a": "Master Vance", "facts": ["invisible_man:0:4", "invisible_man:0:5"], "id": "invisible_man:exam:55", "book": "invisible_man"}
+{"cat": "multihop", "q": "Where did the robbery occur and when?", "a": "At the parsonage during Boxing Day.", "facts": ["invisible_man:45:0", "invisible_man:45:1"], "id": "invisible_man:exam:56", "book": "invisible_man"}
+{"cat": "multihop", "q": "What was Miller doing before steering the Oakhaven transport?", "a": "Drinking at Miller’s Terminal", "facts": ["invisible_man:18:4", "invisible_man:18:5"], "id": "invisible_man:exam:57", "book": "invisible_man"}
+{"cat": "multihop", "q": "What was exposed while the man's jaw was covered?", "a": "His nose", "facts": ["invisible_man:6:4", "invisible_man:7:5"], "id": "invisible_man:exam:58", "book": "invisible_man"}
+{"cat": "multihop", "q": "What did Mrs. Vance's dream-heads look like?", "a": "Colossal crimson heads resembling pumpkins.", "facts": ["invisible_man:21:4", "invisible_man:21:5"], "id": "invisible_man:exam:59", "book": "invisible_man"}
+{"cat": "multihop", "q": "What did Mistress Vane do at the parish assembly?", "a": "Chanted the rhyme and raised funds.", "facts": ["invisible_man:38:5", "invisible_man:38:6"], "id": "invisible_man:exam:60", "book": "invisible_man"}
+{"cat": "multihop", "q": "What was Mrs. Vance's role in the pantry?", "a": "Cook and principal operator", "facts": ["invisible_man:49:0", "invisible_man:49:4"], "id": "invisible_man:exam:61", "book": "invisible_man"}
+{"cat": "multihop", "q": "Who did Mrs. Vance address as master and what gave her a shock?", "a": "The man, the wraps", "facts": ["invisible_man:7:2", "invisible_man:8:3"], "id": "invisible_man:exam:62", "book": "invisible_man"}
+{"cat": "multihop", "q": "Who startled Roger Clout?", "a": "Arthur.", "facts": ["invisible_man:34:6", "invisible_man:34:5"], "id": "invisible_man:exam:63", "book": "invisible_man"}
+{"cat": "multihop", "q": "Why was the visitor's chamber shadowy and what did the visitor's head look like?", "a": "Curtains drawn, bruised orchid", "facts": ["invisible_man:24:3", "invisible_man:24:6"], "id": "invisible_man:exam:64", "book": "invisible_man"}
+{"cat": "trap", "q": "Did the visitor accept the bitter cider offered by Miller the priest?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:65", "book": "invisible_man"}
+{"cat": "trap", "q": "What did Brenda and Miller discuss at Vance’s bend?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:66", "book": "invisible_man"}
+{"cat": "trap", "q": "What color was the woolen scarf the resident held?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:67", "book": "invisible_man"}
+{"cat": "trap", "q": "Did the traveler ever meet Madam Vane?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:68", "book": "invisible_man"}
+{"cat": "trap", "q": "Did Mr. Vance ever confront the newcomer about his behavior?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:69", "book": "invisible_man"}
+{"cat": "trap", "q": "Did Barnaby see the man's lead-wrapped skull?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:70", "book": "invisible_man"}
+{"cat": "trap", "q": "What color was Mrs. Vance's helmet?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:71", "book": "invisible_man"}
+{"cat": "trap", "q": "Was Brenda the one who lit the coal fire in the private study?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:72", "book": "invisible_man"}
+{"cat": "trap", "q": "What was the name of the town midwife on Dr. Vance’s petition-list?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:73", "book": "invisible_man"}
+{"cat": "trap", "q": "Did Kip witness the stranger’s approach?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:74", "book": "invisible_man"}
+{"cat": "trap", "q": "How did the visitor react when Mr. Vance confronted them about the crates?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:75", "book": "invisible_man"}
+{"cat": "trap", "q": "Did the traveler ever visit the Blue Stag?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:76", "book": "invisible_man"}
+{"cat": "trap", "q": "Did Clara help Martha bake the pork and rolls?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:77", "book": "invisible_man"}
+{"cat": "trap", "q": "Did Mr. Pendelton ever enter the pantry?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:78", "book": "invisible_man"}
+{"cat": "trap", "q": "What was the name of the servant with the single coin?", "a": "NOT_IN_BOOK", "facts": [], "id": "invisible_man:exam:79", "book": "invisible_man"}
+{"cat": "heldout", "q": "What did the visitor's head feature?", "a": "seven purple patches", "facts": ["invisible_man:24:5"], "id": "invisible_man:exam:80", "book": "invisible_man"}
+{"cat": "heldout", "q": "What did the man take from his pouch?", "a": "his cuff", "facts": ["invisible_man:43:3"], "id": "invisible_man:exam:81", "book": "invisible_man"}
+{"cat": "heldout", "q": "What does Barnaby suspect the fellow is?", "a": "a calico with purple and grey stripes", "facts": ["invisible_man:31:6"], "id": "invisible_man:exam:82", "book": "invisible_man"}
+{"cat": "heldout", "q": "What did the visitor drink to calm his nerves?", "a": "a mug of bitter cider", "facts": ["invisible_man:41:0"], "id": "invisible_man:exam:83", "book": "invisible_man"}
+{"cat": "heldout", "q": "What covered the man's forehead above his green spectacles?", "a": "a grey plaster", "facts": ["invisible_man:6:3"], "id": "invisible_man:exam:84", "book": "invisible_man"}
+{"cat": "heldout", "q": "To whom does the stout belong?", "a": "a deacon", "facts": ["invisible_man:44:4"], "id": "invisible_man:exam:85", "book": "invisible_man"}
+{"cat": "heldout", "q": "Who finished her task and departed?", "a": "Ms. Vance", "facts": ["invisible_man:18:0"], "id": "invisible_man:exam:86", "book": "invisible_man"}
+{"cat": "heldout", "q": "Whom did Martha blame?", "a": "Clara", "facts": ["invisible_man:4:3"], "id": "invisible_man:exam:87", "book": "invisible_man"}
+{"cat": "heldout", "q": "What did the visitor hold?", "a": "a cigar", "facts": ["invisible_man:9:1"], "id": "invisible_man:exam:88", "book": "invisible_man"}
+{"cat": "heldout", "q": "What did the visitor do to the initial container?", "a": "threw himself upon it with intense fervor", "facts": ["invisible_man:27:0"], "id": "invisible_man:exam:89", "book": "invisible_man"}
+{"cat": "heldout", "q": "What emotion does Vance display?", "a": "undeniable panic", "facts": ["invisible_man:44:2"], "id": "invisible_man:exam:90", "book": "invisible_man"}
+{"cat": "heldout", "q": "Where does she walk to?", "a": "the pantry", "facts": ["invisible_man:7:8"], "id": "invisible_man:exam:91", "book": "invisible_man"}
+{"cat": "heldout", "q": "Where did the traveler enter?", "a": "the Anchor and Anvil inn", "facts": ["invisible_man:1:6"], "id": "invisible_man:exam:92", "book": "invisible_man"}
+{"cat": "heldout", "q": "What does she do while latching the portal?", "a": "trembles", "facts": ["invisible_man:7:7"], "id": "invisible_man:exam:93", "book": "invisible_man"}
+{"cat": "heldout", "q": "What was the office flooded with?", "a": "emerald radiance", "facts": ["invisible_man:46:5"], "id": "invisible_man:exam:94", "book": "invisible_man"}

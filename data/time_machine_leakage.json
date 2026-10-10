@@ -1,0 +1,16 @@
+{
+ "book": "time_machine",
+ "train_rows": {
+  "fact": 1544,
+  "absent": 258,
+  "everyday": 70
+ },
+ "exam_before": 95,
+ "exam_after": 64,
+ "dropped_by_category": {
+  "direct": 19,
+  "paraphrase": 4,
+  "multihop": 4,
+  "heldout": 4
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "book": "time_machine",
+ "round": 2,
+ "rows": {
+  "fact": 3076,
+  "absent": 515,
+  "passage": 51,
+  "everyday": 70
+ },
+ "rows_removed_as_too_close_to_exam": 13
+}

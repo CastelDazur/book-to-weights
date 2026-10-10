@@ -1,0 +1,8 @@
+{
+ "correct_passed": 15,
+ "correct_total": 15,
+ "planted_caught": 15,
+ "planted_total": 15,
+ "judge": "castelos/glm-flash",
+ "ok": true
+}

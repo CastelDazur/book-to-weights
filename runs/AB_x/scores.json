@@ -1,0 +1,68 @@
+{
+ "time_machine/trap60": {
+  "n": 60,
+  "ok": 36,
+  "failed_to_grade": 2,
+  "pct": 62.1
+ },
+ "time_machine/dropped_direct": {
+  "n": 19,
+  "ok": 14,
+  "failed_to_grade": 0,
+  "pct": 73.7
+ },
+ "time_machine/dropped_paraphrase": {
+  "n": 4,
+  "ok": 3,
+  "failed_to_grade": 0,
+  "pct": 75.0
+ },
+ "time_machine/dropped_multihop": {
+  "n": 4,
+  "ok": 4,
+  "failed_to_grade": 0,
+  "pct": 100.0
+ },
+ "time_machine/dropped_heldout": {
+  "n": 4,
+  "ok": 0,
+  "failed_to_grade": 1,
+  "pct": 0.0
+ },
+ "invisible_man/trap60": {
+  "n": 60,
+  "ok": 39,
+  "failed_to_grade": 1,
+  "pct": 66.1
+ },
+ "invisible_man/dropped_direct": {
+  "n": 18,
+  "ok": 18,
+  "failed_to_grade": 0,
+  "pct": 100.0
+ },
+ "invisible_man/dropped_paraphrase": {
+  "n": 1,
+  "ok": 1,
+  "failed_to_grade": 0,
+  "pct": 100.0
+ },
+ "invisible_man/dropped_multihop": {
+  "n": 5,
+  "ok": 2,
+  "failed_to_grade": 0,
+  "pct": 40.0
+ },
+ "invisible_man/dropped_trap": {
+  "n": 1,
+  "ok": 1,
+  "failed_to_grade": 0,
+  "pct": 100.0
+ },
+ "invisible_man/dropped_heldout": {
+  "n": 4,
+  "ok": 0,
+  "failed_to_grade": 0,
+  "pct": 0.0
+ }
+}

@@ -28,51 +28,75 @@ under test. GPU steps run as separate processes inside one GPU window (`run_all.
 every step.
 
 ## Results
-Models: `base` = Qwen2.5-7B-Instruct untouched; `A`, `AB` = round 1 (after book A, after A then B);
-`A2`, `AB2` = round 2 (same frozen exam). One seed, small exams: read the intervals, not only the percentages.
+Models: `base` = Qwen2.5-7B-Instruct untouched; `AB2` = round 2 after book A then B; `A3` = round 3 after book A;
+`AB3` / `AB4` = rounds 3 / 4 after book A then B. Same frozen exam for all. One seed, small exams: read the
+intervals, not only the percentages. **Best model: AB4.**
 
-**What round 1 showed:** the knowledge goes into the weights (book A direct 20% -> 80%), but paraphrase lagged far behind
-direct (44% vs 80%: partly learned question shapes) and the model started inventing answers to trap questions
-(100% -> 50-67% no-invention).
+### Against the client's bars (AB4)
+| Bar | Round 2 | Round 4 | Target |
+|---|---|---|---|
+| Invented answers on 60 cue-free traps, book B | 10 | **4** | at most 2 |
+| Invented answers on 60 cue-free traps, book A | 11 | **8** | at most 2 |
+| General knowledge vs base | -7 points | **-1.7** (59/60, one question) | at most -1 |
+| Book A retention after book B, per question | 84% | **81%** (21/26) | 95% |
+| Held-out facts never trained (guessing baseline) | 0-9% | **0%** | stays low |
 
-**What round 2 changed (general fixes, nothing exam-specific):** the counterfactual book text itself as plain-text rows
-(held-out facts cut out first), 8 diverse question forms per fact instead of 4, twice the "the book does not say" rows,
-KL anchor weight 1.0 instead of 0.5.
+### What each round changed and what it did
+1. **Round 1** - knowledge goes into the weights (book A direct 20% -> 80%), but paraphrase lags (44%) and the
+   model starts inventing answers to traps (50-67% no-invention).
+2. **Round 2** - general data fixes (book text as plain rows, 8 question forms per fact, twice the "the book does
+   not say" rows): paraphrase 75-78%, traps 81-83% on 60 per book. General knowledge -7 points.
+3. **Round 3** - three fixes, one per open bar:
+   - 1,000 "the book does not say" questions per two books, each confirmed unanswerable by a second model family
+     with a planted answerable control in every batch, none close to the exam;
+   - **self-distillation**: 420 general questions answered by the base model itself, mixed into training and used
+     as KL-anchor prompts -> **general knowledge back to 100%**;
+   - replay of book A = the book-A model's **own answers, kept only if the blind judge marks them correct**.
+   Book A alone (A3): direct 100%, traps 92% (5 inventions per 60 = the untrained base's level).
+   But to save time only 200 of 386 replay answers were judged, and **retention fell to 58%**: the unjudged half
+   of book A was forgotten.
+4. **Round 4** - same as round 3 with the **full** replay (all 386 judged answers x3 + the book A text):
+   retention back to 81%, traps book B 93% (4 inventions per 60), book A after B: traps 100%, direct 90%.
 
-**Result:** paraphrase 75-78%, trap no-invention 77-93% (81-83% on 60 traps per book), held-out facts stay at 0-9%.
+### Tried and rejected (measured, not assumed)
+- **Confidence gate** (answer only when sure; three signals compared on a validation set that never touches the
+  exam: mean log-prob of the first answer tokens, first-token probability, agreement of 4 samples). Best signal
+  raised abstention on unanswerable validation questions from 91% to 94% at 5% false silence, but on the exam it
+  silenced correct book-A answers and everyday answers more than it removed inventions (retention 58% -> 50%).
+  Not used. The 4-sample agreement signal, suggested by a reviewer model, was weaker than plain log-prob here.
+- **Retrieval context in the prompt** - would solve traps, but it is RAG, not closed-book. Not used.
 
-**Not solved yet (honest list):**
-- 10-11 invented answers per 60 traps. Even the untrained base invents on 5-7 of these 60.
-- Retention per question: book A's score is unchanged after book B, but 4 of 25 right answers flipped (84%).
-- General knowledge probe -7 points against the base; the stronger KL anchor did not fix it.
-- Two-fact (multi-hop) questions stay low (10-36%).
+### What forgetting looks like now
+After book B the model more often says "the book does not say" about a book-A fact than invents a wrong one:
+book-A trap no-invention after book B is 100%. Forgetting turned from lying into abstaining - the safer failure.
 
-| Set | base | A | AB | A2 | AB2 |
+### Full table
+| Set | base | AB2 | A3 | AB3 | AB4 |
 |---|---|---|---|---|---|
-| Book A (The Chrono Engine) / direct | 20% (2/10, 6-51) | 80% (8/10, 49-94) | 80% (8/10, 49-94) | 90% (9/10, 60-98) | 90% (9/10, 60-98) |
-| Book A (The Chrono Engine) / paraphrase | 6% (1/16, 1-28) | 44% (7/16, 23-67) | 69% (11/16, 44-86) | 75% (12/16, 51-90) | 75% (12/16, 51-90) |
-| Book A (The Chrono Engine) / multihop | 0% (0/11, 0-26) | 27% (3/11, 10-57) | 36% (4/11, 15-65) | 36% (4/11, 15-65) | 36% (4/11, 15-65) |
-| Book A (The Chrono Engine) / trap | 100% (14/14, 78-100) | 67% (10/15, 42-85) | 50% (7/14, 27-73) | 79% (11/14, 52-92) | 93% (13/14, 69-99) |
-| Book A (The Chrono Engine) / heldout | 9% (1/11, 2-38) | 0% (0/10, 0-28) | 0% (0/11, 0-26) | 0% (0/11, 0-26) | 9% (1/11, 2-38) |
-| Book A (The Chrono Engine) / trap60 | 91% (53/58, 81-96) | 55% (32/58, 42-67) | 62% (36/58, 49-73) | 80% (47/59, 68-88) | 81% (48/59, 70-89) |
-| Book A (The Chrono Engine) / dropped_direct | 5% (1/19, 1-25) | 84% (16/19, 62-94) | 74% (14/19, 51-88) | 83% (15/18, 61-94) | 89% (16/18, 67-97) |
-| Book A (The Chrono Engine) / dropped_paraphrase | 0% (0/3, 0-56) | 75% (3/4, 30-95) | 75% (3/4, 30-95) | 50% (2/4, 15-85) | 50% (2/4, 15-85) |
-| Book A (The Chrono Engine) / dropped_multihop | 0% (0/4, 0-49) | 100% (4/4, 51-100) | 100% (4/4, 51-100) | 75% (3/4, 30-95) | 100% (4/4, 51-100) |
-| Book B (The Unseen Guest) / direct | 0% (0/12, 0-24) | 8% (1/12, 1-35) | 92% (11/12, 65-99) | 0% (0/12, 0-24) | 83% (10/12, 55-95) |
-| Book B (The Unseen Guest) / paraphrase | 0% (0/18, 0-18) | 17% (3/18, 6-39) | 61% (11/18, 39-80) | 6% (1/18, 1-26) | 78% (14/18, 55-91) |
-| Book B (The Unseen Guest) / multihop | 0% (0/10, 0-28) | 0% (0/9, 0-30) | 10% (1/10, 2-40) | 0% (0/10, 0-28) | 10% (1/10, 2-40) |
-| Book B (The Unseen Guest) / trap | 100% (14/14, 78-100) | 43% (6/14, 21-67) | 43% (6/14, 21-67) | 71% (10/14, 45-88) | 77% (10/13, 50-92) |
-| Book B (The Unseen Guest) / heldout | 0% (0/11, 0-26) | 0% (0/11, 0-26) | 0% (0/11, 0-26) | 0% (0/11, 0-26) | 0% (0/11, 0-26) |
-| Book B (The Unseen Guest) / trap60 | 88% (52/59, 77-94) | 69% (40/58, 56-79) | 66% (39/59, 53-77) | 95% (55/58, 86-98) | 83% (49/59, 72-91) |
-| Book B (The Unseen Guest) / dropped_direct | 0% (0/18, 0-18) | 11% (2/18, 3-33) | 100% (18/18, 82-100) | 0% (0/18, 0-18) | 100% (18/18, 82-100) |
-| Book B (The Unseen Guest) / dropped_paraphrase | 0% (0/1, 0-79) | 0% (0/1, 0-79) | 100% (1/1, 21-100) | 0% (0/1, 0-79) | 100% (1/1, 21-100) |
-| Book B (The Unseen Guest) / dropped_multihop | 0% (0/5, 0-43) | 0% (0/5, 0-43) | 40% (2/5, 12-77) | 0% (0/5, 0-43) | 20% (1/5, 4-62) |
-| General knowledge probe | 100% (59/59, 94-100) | 95% (57/60, 86-98) | 93% (55/59, 84-97) | 95% (56/59, 86-98) | 93% (56/60, 84-97) |
-| Everyday questions answered normally | 100% (40/40, 91-100) | 98% (39/40, 87-100) | 95% (38/40, 83-99) | 100% (40/40, 91-100) | 100% (39/39, 91-100) |
+| Book A (The Chrono Engine) / direct | 20% (2/10, 6-51) | 90% (9/10, 60-98) | 100% (10/10, 72-100) | 70% (7/10, 40-89) | 90% (9/10, 60-98) |
+| Book A (The Chrono Engine) / paraphrase | 6% (1/16, 1-28) | 75% (12/16, 51-90) | 69% (11/16, 44-86) | 62% (10/16, 39-82) | 69% (11/16, 44-86) |
+| Book A (The Chrono Engine) / multihop | 0% (0/11, 0-26) | 36% (4/11, 15-65) | 46% (5/11, 21-72) | 9% (1/11, 2-38) | 27% (3/11, 10-57) |
+| Book A (The Chrono Engine) / trap | 100% (14/14, 78-100) | 93% (13/14, 69-99) | 93% (14/15, 70-99) | 93% (14/15, 70-99) | 100% (15/15, 80-100) |
+| Book A (The Chrono Engine) / heldout | 9% (1/11, 2-38) | 9% (1/11, 2-38) | 0% (0/10, 0-28) | 0% (0/10, 0-28) | 0% (0/10, 0-28) |
+| Book A (The Chrono Engine) / trap60 | 91% (53/58, 81-96) | 81% (48/59, 70-89) | 92% (54/59, 82-96) | 88% (52/59, 77-94) | 86% (51/59, 75-93) |
+| Book A (The Chrono Engine) / dropped_direct | 5% (1/19, 1-25) | 89% (16/18, 67-97) | 84% (16/19, 62-94) | 68% (13/19, 46-85) | 79% (15/19, 57-91) |
+| Book A (The Chrono Engine) / dropped_paraphrase | 0% (0/3, 0-56) | 50% (2/4, 15-85) | 75% (3/4, 30-95) | 25% (1/4, 5-70) | 75% (3/4, 30-95) |
+| Book A (The Chrono Engine) / dropped_multihop | 0% (0/4, 0-49) | 100% (4/4, 51-100) | 100% (4/4, 51-100) | 75% (3/4, 30-95) | 75% (3/4, 30-95) |
+| Book B (The Unseen Guest) / direct | 0% (0/12, 0-24) | 83% (10/12, 55-95) | - | 75% (9/12, 47-91) | 75% (9/12, 47-91) |
+| Book B (The Unseen Guest) / paraphrase | 0% (0/18, 0-18) | 78% (14/18, 55-91) | - | 84% (16/19, 62-94) | 79% (15/19, 57-91) |
+| Book B (The Unseen Guest) / multihop | 0% (0/10, 0-28) | 10% (1/10, 2-40) | - | 10% (1/10, 2-40) | 10% (1/10, 2-40) |
+| Book B (The Unseen Guest) / trap | 100% (14/14, 78-100) | 77% (10/13, 50-92) | - | 77% (10/13, 50-92) | 77% (10/13, 50-92) |
+| Book B (The Unseen Guest) / heldout | 0% (0/11, 0-26) | 0% (0/11, 0-26) | - | 0% (0/11, 0-26) | 0% (0/11, 0-26) |
+| Book B (The Unseen Guest) / trap60 | 88% (52/59, 77-94) | 83% (49/59, 72-91) | - | 88% (52/59, 77-94) | 93% (55/59, 84-97) |
+| Book B (The Unseen Guest) / dropped_direct | 0% (0/18, 0-18) | 100% (18/18, 82-100) | - | 100% (18/18, 82-100) | 94% (17/18, 74-99) |
+| Book B (The Unseen Guest) / dropped_paraphrase | 0% (0/1, 0-79) | 100% (1/1, 21-100) | - | 100% (1/1, 21-100) | 100% (1/1, 21-100) |
+| Book B (The Unseen Guest) / dropped_multihop | 0% (0/5, 0-43) | 20% (1/5, 4-62) | - | 40% (2/5, 12-77) | 40% (2/5, 12-77) |
+| General knowledge probe | 100% (59/59, 94-100) | 93% (56/60, 84-97) | - | 100% (60/60, 94-100) | 98% (59/60, 91-100) |
+| Everyday questions answered normally | 100% (40/40, 91-100) | 100% (39/39, 91-100) | - | 100% (39/39, 91-100) | 100% (39/39, 91-100) |
 
 Cells: score (right/graded, 95% Wilson interval). trap / trap60 = share of questions with no answer in the book where the model did NOT invent one. dropped_* = exam questions removed by the leakage filter, scored separately.
-Retention of book A (A -> AB): 17 of 18 answers right after the book A stage are still right after book B (94%).
-Retention of book A (A2 -> AB2): 21 of 25 answers right after the book A stage are still right after book B (84%).
+Retention of book A (A3 -> AB3): 15 of 26 answers right after the book A stage are still right after book B (58%).
+Retention of book A (A3 -> AB4): 21 of 26 answers right after the book A stage are still right after book B (81%).
 
 Exam leakage filter (exam questions too close to any training question are removed before scoring):
 - time_machine: 95 -> 64 questions, dropped {'direct': 19, 'paraphrase': 4, 'multihop': 4, 'heldout': 4}
@@ -80,12 +104,11 @@ Exam leakage filter (exam questions too close to any training question are remov
 
 Judge calibration: 15/15 correct answers accepted, 15/15 planted wrong answers caught.
 
-
 ## What this does not show yet
 - One seed. Run-to-run spread needs at least 3 seeds before any number is quoted as stable.
 - Two books, about 9,000 words each, not three full novels.
-- Replay rows are taken from the teacher's training rows, not from the model's own correct answers.
-- The KL anchor is to the clean base only, not to the previous stage.
+- The KL anchor is to the clean base only, not to the previous stage (the next lever for retention).
+- Retention (81%) and traps on book A (8 of 60) are below the bars; the remaining gap is the paid work.
 - The judge calibration covers fact grading; trap and everyday grading are not yet calibrated with planted items.
 
 ## Run
@@ -104,6 +127,14 @@ py -3.14 scripts/02b_extra.py time_machine             # and invisible_man
 py -3.14 scripts/run_all.py --round2
 py -3.14 scripts/06_judge.py A2 AB2 base_x A_x AB_x
 py -3.14 scripts/07_report.py base A AB A2 AB2
+# rounds 3-4: verified abstention pool, self-distillation, judged own-answer replay
+py -3.14 scripts/09_round3_data.py --general
+py -3.14 scripts/09_round3_data.py time_machine        # and invisible_man
+py -3.14 scripts/10_round3_build.py sets
+py -3.14 scripts/run_round3.py
+py -3.14 scripts/run_round4.py
+py -3.14 scripts/06_judge.py A3 AB3 AB4 && py -3.14 scripts/11_gate.py AB3
+py -3.14 scripts/07_report.py base AB2 A3 AB3 AB4
 ```
 Model endpoints are any OpenAI-compatible chat API (`B2W_ENDPOINT`, `B2W_TEACHER`, `B2W_EXAM`, `B2W_JUDGE`).
 Source texts: Project Gutenberg #35 and #5230 (public domain).

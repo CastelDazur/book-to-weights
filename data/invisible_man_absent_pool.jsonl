@@ -1,0 +1,501 @@
+{"q": "How long had Brenda and Miller known each other before meeting at Vance’s bend?", "split": "val"}
+{"q": "How much did the traveler pay for the repair of the mechanism?", "split": "val"}
+{"q": "What substances or liquids were contained within the jars?", "split": "val"}
+{"q": "Why did the wraps give Mrs. Vance a shock?", "split": "val"}
+{"q": "What time did the quiet hours of Boxing Day officially end?", "split": "val"}
+{"q": "Why did the heavy gloom of the evening lift so suddenly?", "split": "val"}
+{"q": "What happened to the desk after it became deep with hay?", "split": "val"}
+{"q": "What kind of fossil did Miller place on his papers?", "split": "val"}
+{"q": "How many residents lived in the settlement?", "split": "val"}
+{"q": "What sound did the keys make when they hit the floor?", "split": "val"}
+{"q": "Who is Madam Gribble's brother?", "split": "val"}
+{"q": "How long has the visitor been staying in the alcove?", "split": "val"}
+{"q": "What kind of carnival acts did Amos Gurney enjoy watching?", "split": "val"}
+{"q": "How many other patrons has Oakfield hosted in the past?", "split": "val"}
+{"q": "Where does the path outside the garden lead?", "split": "val"}
+{"q": "What was the exact name of the street outside the building?", "split": "val"}
+{"q": "Where was the sitting-room located inside the house?", "split": "val"}
+{"q": "What was written on the petition-list for the town midwife?", "split": "val"}
+{"q": "What was the name of the witness who reported the clothing change?", "split": "val"}
+{"q": "What title did Mrs. Vance wrongly claim the visitor possessed?", "split": "val"}
+{"q": "What is the name of Brenda's mother?", "split": "val"}
+{"q": "Where did the fresh visitor come from?", "split": "val"}
+{"q": "How many reagents are contained within the traveler's belongings?", "split": "val"}
+{"q": "How many years has Mr. Vance known the visitor?", "split": "val"}
+{"q": "What color are the velvet-cravat and the coat worn by the guest?", "split": "val"}
+{"q": "How many jars shattered when the tremor hit?", "split": "val"}
+{"q": "What specific pressing and essential inquiries was the traveller investigating?", "split": "val"}
+{"q": "How many dirt roads did Arthur traverse that evening?", "split": "val"}
+{"q": "How many rooms are in the entire estate?", "split": "val"}
+{"q": "What shade of felt was the broad cap?", "split": "val"}
+{"q": "What was inside the green object that vanished behind the desk?", "split": "val"}
+{"q": "Where is Oakhaven depot located in relation to the house?", "split": "val"}
+{"q": "What color are the traveler's eyes beneath the steel helmet?", "split": "val"}
+{"q": "What did the traveler do immediately after reaching the top of the bare stairs?", "split": "val"}
+{"q": "What is the traveler's actual name?", "split": "val"}
+{"q": "What specific curse did Mr. Vance claim the wanderer muttered?", "split": "val"}
+{"q": "What exact date in late May did the paranormal occurrences begin?", "split": "val"}
+{"q": "How many relatives live with the Pendeltons?", "split": "val"}
+{"q": "What happened next after the visitor hurled the vial?", "split": "val"}
+{"q": "How many porcelain pieces does Mr. Thorne arrange on the shelf?", "split": "val"}
+{"q": "How many tapestries were hanging in the study?", "split": "val"}
+{"q": "What exact words did the booming voice shout from the threshold?", "split": "val"}
+{"q": "Who taught Master Thorne how to dismantle circuitry?", "split": "val"}
+{"q": "Why did the resident raise his arm?", "split": "val"}
+{"q": "Why is Brenda such a sluggish servant?", "split": "val"}
+{"q": "Why was Arthur's mind so considerably troubled as he trudged away?", "split": "val"}
+{"q": "Where did Mr. Dawson keep the heavy iron rod during the day?", "split": "val"}
+{"q": "Who waits for the traveler back at his hometown?", "split": "val"}
+{"q": "What is tucked inside the pockets of the traveler's cloak?", "split": "val"}
+{"q": "Where did Ms. Miller live?", "split": "val"}
+{"q": "Why did Clara delay the relish?", "split": "train"}
+{"q": "What name did the traveler give when entering the tavern?", "split": "train"}
+{"q": "Who are the other residents living in Oakhaven?", "split": "train"}
+{"q": "How many crates did the visitor claim were arriving on Friday?", "split": "train"}
+{"q": "What brand of parka did the guest wear?", "split": "train"}
+{"q": "Where are the relatives of Mr. and Mrs. Vance living now?", "split": "train"}
+{"q": "Who coughed loudly in the hallway?", "split": "train"}
+{"q": "How many days did the wanderer plan to stay in Thornwood?", "split": "train"}
+{"q": "What size was the room the man paced in?", "split": "train"}
+{"q": "How did the stranger react when Mr. Vance stared coldly at him?", "split": "train"}
+{"q": "When did the visitor first acquire the deep bruises on his cheekbones?", "split": "train"}
+{"q": "What relation was Mr. Vance to the madam?", "split": "train"}
+{"q": "What relationship does Mrs. Vance have to the master?", "split": "train"}
+{"q": "What kind of liquid was inside the flask Thomas carried?", "split": "train"}
+{"q": "What happened to the barometer after Master Silas Vane inspected it?", "split": "train"}
+{"q": "How many vials were sitting in the racks in the room?", "split": "train"}
+{"q": "How many days did the patient's splints require adjustments?", "split": "train"}
+{"q": "What food did Vance ask Miller to give him?", "split": "train"}
+{"q": "Where did Vance travel from before arriving at the rectory?", "split": "train"}
+{"q": "Which direction did the wagoner take when he left for Oakridge on Monday?", "split": "train"}
+{"q": "What was the name of the person Mr. Pendelton instructed to bring the lantern?", "split": "train"}
+{"q": "Who was the person instructed to haul the crates inside?", "split": "train"}
+{"q": "What relation was the suspected relative to Mr. Fletcher?", "split": "train"}
+{"q": "Who originally wrote the rhyme about the Phantom Lad?", "split": "train"}
+{"q": "What caused the stiffness and trembling in the newcomer's hands?", "split": "train"}
+{"q": "What was the exact brand of the sickle Rose used?", "split": "train"}
+{"q": "Who owned the smithy where Toby Clout worked?", "split": "train"}
+{"q": "Why had the lamp in the room flickered out?", "split": "train"}
+{"q": "What was hidden inside the hay that the visitor flung about?", "split": "train"}
+{"q": "What did the curate and his wife discuss while searching the larder?", "split": "train"}
+{"q": "What is the man's actual name?", "split": "train"}
+{"q": "How many years had the Dawsons lived in the township?", "split": "train"}
+{"q": "How many dressings were left on the bed rail?", "split": "train"}
+{"q": "Why does the woman call the visitor her master?", "split": "train"}
+{"q": "What is Kip's relationship to the speaker?", "split": "train"}
+{"q": "How many years has Clara lived in the house?", "split": "train"}
+{"q": "Why did Mrs. Vance sleep until the afternoon?", "split": "train"}
+{"q": "What colour were the curtains in the Municipal Academy classroom?", "split": "train"}
+{"q": "What was the name of Arthur's uncle who was cheated at Brighton?", "split": "train"}
+{"q": "What happened next after the guest retreated from the table?", "split": "train"}
+{"q": "How many rooms are in the pantry?", "split": "train"}
+{"q": "How much money did Vance ask for on behalf of the Orphan Trust?", "split": "train"}
+{"q": "Who gave the man his bronze nose?", "split": "train"}
+{"q": "What caused the injury to the resident's skull?", "split": "train"}
+{"q": "What color was the cap that Vance carried in his hand?", "split": "train"}
+{"q": "What did Thomas do after hearing Mrs. Vance's voice?", "split": "train"}
+{"q": "Why does Mr. Thorne feel his social overtures were misplaced?", "split": "train"}
+{"q": "What color was the porch outside the Rusty Anchor?", "split": "train"}
+{"q": "Where did the traveler acquire the uncut emeralds?", "split": "train"}
+{"q": "What was contained inside the dozen and two jars that stirred Dr. Vance's jealousy?", "split": "train"}
+{"q": "What secrets did the pioneering theorist unlock?", "split": "train"}
+{"q": "What happened next after Madam Gribble emerged onto the upper foyer?", "split": "train"}
+{"q": "What did the traveller laugh quietly about?", "split": "train"}
+{"q": "When will Miller return to question the visitor about the crates?", "split": "train"}
+{"q": "Why was the visitor's door locked on the landing?", "split": "train"}
+{"q": "What brand of radiator was in the room?", "split": "train"}
+{"q": "How many visitors has the newcomer turned away?", "split": "train"}
+{"q": "What type of specimens are packed inside the traveler's luggage?", "split": "train"}
+{"q": "What was inside the empty space Vance described?", "split": "train"}
+{"q": "Where did the traveler go after leaving the chamber?", "split": "train"}
+{"q": "What happened next after Mr. Vance discovered nothing during his investigations?", "split": "train"}
+{"q": "What are the first names of Master Vane's parents?", "split": "train"}
+{"q": "What was the stranger's actual name?", "split": "train"}
+{"q": "What brand of radio did Master Thorne dismantle?", "split": "train"}
+{"q": "Why did the lantern remain lit after the chamber appeared empty?", "split": "train"}
+{"q": "What happened next after the jars and beakers were arranged on the surfaces?", "split": "train"}
+{"q": "What did the resident say during their rapid conversation with Master Thorne?", "split": "train"}
+{"q": "Why does Madam Vane hold such a deep fear of the sickle?", "split": "train"}
+{"q": "What was the exact chemical composition of the formula?", "split": "train"}
+{"q": "What was the first name of Miller's paternal grandfather?", "split": "train"}
+{"q": "How many doors led into the chamber where the noise occurred?", "split": "train"}
+{"q": "What is the name of the town where this takes place?", "split": "train"}
+{"q": "Where did the traveler stay after retiring for the evening?", "split": "train"}
+{"q": "What color were the endless tentacles on the dream-heads?", "split": "train"}
+{"q": "What color are the curtains in the room?", "split": "train"}
+{"q": "What was the traveler's actual name?", "split": "train"}
+{"q": "Who led the group of fencesitters and moderates?", "split": "train"}
+{"q": "What were the contents of the iron chests that the visitor opened?", "split": "train"}
+{"q": "What is Mr. Dawson's first name?", "split": "train"}
+{"q": "What happened next after Roger Clout was startled by Arthur?", "split": "train"}
+{"q": "Which female resident first muttered about the paranormal?", "split": "train"}
+{"q": "What is the relationship between Mr. Vance and Madam Vane?", "split": "train"}
+{"q": "What happened next after Mrs. Vance asked if the yams were done?", "split": "train"}
+{"q": "Who owns the house Martha and Clara are working in?", "split": "train"}
+{"q": "What color are the visitor's eyes?", "split": "train"}
+{"q": "What is inside the visitor's trunks at the station?", "split": "train"}
+{"q": "What is Vance's full name?", "split": "train"}
+{"q": "What color is the wool scarf the traveler wears?", "split": "train"}
+{"q": "Where did Mr. Pendelton go after the parlor door clicked shut?", "split": "train"}
+{"q": "What did the stranger and the host talk about while dining?", "split": "train"}
+{"q": "Why did the residents dislike the newcomer so intensely?", "split": "train"}
+{"q": "What was the name of Mrs. Vance's mother?", "split": "train"}
+{"q": "What did the stranger's voice sound like?", "split": "train"}
+{"q": "Where did the stranger come from before arriving at the house?", "split": "train"}
+{"q": "What colour was the wicker lounger?", "split": "train"}
+{"q": "What color was the traveler's door?", "split": "train"}
+{"q": "How long did Mrs. Vance continue to weep after sitting straight up?", "split": "train"}
+{"q": "What language was the curse spoken in from within the sitting-room?", "split": "train"}
+{"q": "How many youngsters dreamed of monsters that night?", "split": "train"}
+{"q": "When did the curate and his wife arrive at the estate?", "split": "train"}
+{"q": "Which room on the second floor did the traveler choose in the tavern?", "split": "train"}
+{"q": "Where did the madam go after she turned and stood up with her apron-string toward Mr. Vance?", "split": "train"}
+{"q": "How many years older is Kip than the speaker?", "split": "train"}
+{"q": "Why did the matron want to drown the animal?", "split": "train"}
+{"q": "Who is Arthur's closest living relative?", "split": "train"}
+{"q": "How many days had the speaker known the stranger?", "split": "train"}
+{"q": "What is the armored wanderer's real name?", "split": "train"}
+{"q": "What color is the merchant's vest that Mrs. Vance is drying?", "split": "train"}
+{"q": "What is the exact name of the mysterious newcomer?", "split": "train"}
+{"q": "What did Dr. Vance wear during the visit near Christmas?", "split": "train"}
+{"q": "What is the name of Vance's sister?", "split": "train"}
+{"q": "What happened immediately after the door was opened wider?", "split": "train"}
+{"q": "What did Mr. Vance discover when he investigated the background of his visitor?", "split": "train"}
+{"q": "Why is the visitor working with the hatch bolted?", "split": "train"}
+{"q": "What specific profession did the townspeople argue about?", "split": "train"}
+{"q": "Why did Miller slump heavily in his seat?", "split": "train"}
+{"q": "Who was the intruder who sneezed?", "split": "train"}
+{"q": "What color was the scarf the traveler wore when arriving in Oakhaven?", "split": "train"}
+{"q": "Who tended to Rose's leg wound before Mr. Vance took over?", "split": "train"}
+{"q": "What color is the wood stove in the room where the traveler stands?", "split": "train"}
+{"q": "What physical features defined the traveler's volatile disposition?", "split": "train"}
+{"q": "Who gave Mrs. Vance the library key?", "split": "train"}
+{"q": "Whose blood was on the bandage suggested by Mr. Miller?", "split": "train"}
+{"q": "Why did the intruder produce a sudden sneeze?", "split": "train"}
+{"q": "How many students were enrolled in Mr. Vance's classes at the Municipal Academy?", "split": "train"}
+{"q": "What color was the wool of the stranger's coat?", "split": "train"}
+{"q": "Why did Miss Vance tell Mr. Vance to attend to his own affairs?", "split": "train"}
+{"q": "What did Miller say to provoke Mrs. Vance?", "split": "train"}
+{"q": "Whose formula was it originally?", "split": "train"}
+{"q": "Where had the traveler journeyed from before reaching Oakhaven?", "split": "train"}
+{"q": "How many other people were in the room at the time?", "split": "train"}
+{"q": "Why did the legless torso sway toward Miller?", "split": "train"}
+{"q": "How many paces away was the door when the man approached?", "split": "train"}
+{"q": "What kind of documents were stored in the unlocked cabinet?", "split": "train"}
+{"q": "How much alcohol by volume was in the wine tested in the pantry?", "split": "train"}
+{"q": "Where did the apothecary in Thornwood source his own jars?", "split": "train"}
+{"q": "Who is Barnaby?", "split": "train"}
+{"q": "What is the first name of Miller the priest?", "split": "train"}
+{"q": "What happened to the torn trousers after the traveler reached the tavern?", "split": "train"}
+{"q": "What kind of food did Mrs. Vance prepare besides toast and porridge?", "split": "train"}
+{"q": "What color are the curtains in the newcomer's room?", "split": "train"}
+{"q": "Who owns the wine-shop in Bramble Hollow?", "split": "train"}
+{"q": "What song was Barnaby humming outside the pub?", "split": "train"}
+{"q": "What is the visitor's actual name?", "split": "train"}
+{"q": "How many members belonged to the faction led by Master Vane?", "split": "train"}
+{"q": "How many bottles of wine were in the pantry during the Vances' visit?", "split": "train"}
+{"q": "What injuries did the traveler sustain on his hand beneath the bitten glove?", "split": "train"}
+{"q": "Where did the curate and his wife live before coming to this estate?", "split": "train"}
+{"q": "What are the names of Mrs. Vance's parents?", "split": "train"}
+{"q": "How much rent did the lodger pay?", "split": "train"}
+{"q": "What did the wanderer look like once the scarf and cap-visor were finally removed?", "split": "train"}
+{"q": "Why was the traveler carrying forty or more canisters and buckets?", "split": "train"}
+{"q": "Who was the visitor's brother?", "split": "train"}
+{"q": "Why was the minute-hand stuck on eight?", "split": "train"}
+{"q": "What was the actual name of the newcomer?", "split": "train"}
+{"q": "Why did the night train make an unscheduled stop?", "split": "train"}
+{"q": "When did the stranger arrive at the house?", "split": "train"}
+{"q": "What did the traveler find so amusing that he had to stifle his chuckle?", "split": "train"}
+{"q": "How much did the honey jar cost?", "split": "train"}
+{"q": "What was the woman's first name at the door?", "split": "train"}
+{"q": "What beverage had Miller been drinking at Miller’s Terminal?", "split": "train"}
+{"q": "How many colossal crimson heads appeared in the dream?", "split": "train"}
+{"q": "Who was the visitor's eldest brother?", "split": "train"}
+{"q": "Why did the traveler ignore the temple services?", "split": "train"}
+{"q": "How many rooms are in the house?", "split": "train"}
+{"q": "What did the tiny silver eyes on the pumpkin-like heads do?", "split": "train"}
+{"q": "Why did the traveler experience financial ruin in mid-October?", "split": "train"}
+{"q": "Why was the newcomer's visage so skeletal?", "split": "train"}
+{"q": "How many years had Dr. Vance practiced medicine in Oakhaven?", "split": "train"}
+{"q": "What color are the temporary scars on the boarder's brow?", "split": "train"}
+{"q": "What recipe did Martha use for the relish?", "split": "train"}
+{"q": "How much does the host charge for courier services?", "split": "train"}
+{"q": "How many years has Mr. Pender lived in the town?", "split": "train"}
+{"q": "How many pieces of armor did the woman carry?", "split": "train"}
+{"q": "When did Roger Clout first arrive at the tavern?", "split": "train"}
+{"q": "How long was Vance's stay in Oakhaven?", "split": "train"}
+{"q": "How much money did the parish assembly manage to raise for the temple roof?", "split": "train"}
+{"q": "Where did Vance go after leaving the parlor?", "split": "train"}
+{"q": "How many days did the traveler plan to stay in Oakhaven?", "split": "train"}
+{"q": "Who was the man at the wood?", "split": "train"}
+{"q": "Where did Ms. Vance go after leaving the settlement?", "split": "train"}
+{"q": "When did Master Vance inherit the Boar and Barrel?", "split": "train"}
+{"q": "What is Martha's mother's maiden name?", "split": "train"}
+{"q": "How much money did the hollow trunks cost the uncle?", "split": "train"}
+{"q": "What happened immediately after Kip finished laughing?", "split": "train"}
+{"q": "What did Mr. Finch bring on the supper tray?", "split": "train"}
+{"q": "What pattern was printed on the napkin?", "split": "train"}
+{"q": "How many years has the resident lived in Oakhaven?", "split": "train"}
+{"q": "How many people were sitting inside the tavern when the traveler entered?", "split": "train"}
+{"q": "Where did Miller actually go after speaking with the traveler?", "split": "train"}
+{"q": "How many days had the traveller been staying at the establishment?", "split": "train"}
+{"q": "Why are the scientific rivals hunting the traveler?", "split": "train"}
+{"q": "What happened next after Bella stood gaping at the guest?", "split": "train"}
+{"q": "What object did the stranger carry in his left hand?", "split": "train"}
+{"q": "How many candles were delivered to the guest by Mr. Vance?", "split": "train"}
+{"q": "What was the stranger's real name?", "split": "train"}
+{"q": "Which scientific rival set up the tracking devices?", "split": "train"}
+{"q": "Why did the guest trespass on the property in the first place?", "split": "train"}
+{"q": "What were the seven components listed in the precious formula?", "split": "train"}
+{"q": "What caused Arthur to have such a rough shift that evening?", "split": "train"}
+{"q": "What did the man do after Mrs. Vance latched the portal?", "split": "train"}
+{"q": "Who did the guest give the three emeralds to?", "split": "train"}
+{"q": "What are the names of the newcomer's relatives?", "split": "train"}
+{"q": "What colour are the stranger's spectacles?", "split": "train"}
+{"q": "What did the swathed lump on the man actually contain?", "split": "train"}
+{"q": "What color was the sawdust scattered across the floor?", "split": "train"}
+{"q": "Why was the stranger hiding his physical condition?", "split": "train"}
+{"q": "How many mugs of stout did Vance drink before the third one?", "split": "train"}
+{"q": "Who owned the lodging house before Mrs. Vance?", "split": "train"}
+{"q": "Who slammed the parlour door shut?", "split": "train"}
+{"q": "What colour was the ladle making the noise?", "split": "train"}
+{"q": "What color was the dissolving ice on the settlement's paths?", "split": "train"}
+{"q": "What was the first name of Mr. Vance?", "split": "train"}
+{"q": "Who is the owner of the wagon that eventually drives over?", "split": "train"}
+{"q": "Who managed the temple services that the traveler skipped?", "split": "train"}
+{"q": "What happened to the stranger's napkin after he removed it?", "split": "train"}
+{"q": "Why did the traveler choose Ravenswood instead of another town?", "split": "train"}
+{"q": "Why is there a grey plaster on the man's forehead?", "split": "train"}
+{"q": "What was the curious listener's name?", "split": "train"}
+{"q": "What is the striking stature and posture of the Oakhaven resident?", "split": "train"}
+{"q": "How many curtains covered the window in the chamber?", "split": "train"}
+{"q": "What color is Madam Gribble's velvet robe?", "split": "train"}
+{"q": "Where did the stranger purchase his green spectacles?", "split": "train"}
+{"q": "What is Martha's husband's name?", "split": "train"}
+{"q": "What brand of cigars does the visitor smoke?", "split": "train"}
+{"q": "What was inside the trio of suitcases?", "split": "train"}
+{"q": "What are the names of the merchant's surviving relatives?", "split": "train"}
+{"q": "What happened to the traveler after the harvest gala concluded?", "split": "train"}
+{"q": "What happened next after Ms. Vance decided to delay her questions?", "split": "train"}
+{"q": "How many years has Madam Vance lived in Oakhaven?", "split": "train"}
+{"q": "How many rooms are in the parsonage?", "split": "train"}
+{"q": "How many years had Miller lived in Oakhaven?", "split": "train"}
+{"q": "What is the name of the town where the story takes place?", "split": "train"}
+{"q": "Where did this bizarre encounter take place?", "split": "train"}
+{"q": "How old was the timepiece in the library?", "split": "train"}
+{"q": "What brand of torch was ignited inside the office?", "split": "train"}
+{"q": "What kind of wood is used to build the hearth where the guest sat?", "split": "train"}
+{"q": "What was originally stored in the nine containers before they were emptied?", "split": "train"}
+{"q": "Did Miller ever manage to recreate the burned formula from memory?", "split": "train"}
+{"q": "What is stored inside the pantry?", "split": "train"}
+{"q": "What color is the heavy oak door of the tavern?", "split": "train"}
+{"q": "How old is Miller the priest?", "split": "train"}
+{"q": "What colour coat did Mr. Arthur Crabtree wear to the meeting?", "split": "train"}
+{"q": "Where did the chemical spill take place?", "split": "train"}
+{"q": "Where did Master Silas Vane purchase the barometer?", "split": "train"}
+{"q": "How did the boarder suffer his mishap?", "split": "train"}
+{"q": "How much money was involved in the thefts that occurred earlier in the year?", "split": "train"}
+{"q": "What kind of business does the merchant run?", "split": "train"}
+{"q": "Who owned the Ship and Anchor?", "split": "train"}
+{"q": "How many rooms are in the Vance residence?", "split": "train"}
+{"q": "Where did Master Thorne acquire the violet filter?", "split": "train"}
+{"q": "What is the newcomer's actual name?", "split": "train"}
+{"q": "How many ironmongers worked down the lane?", "split": "train"}
+{"q": "What colour was the woolen scarf?", "split": "train"}
+{"q": "What happened to the traveler's boots and shoes?", "split": "train"}
+{"q": "What kind of work was the traveler attempting to do erratically?", "split": "train"}
+{"q": "What is hidden behind the guest's emerald goggles?", "split": "train"}
+{"q": "Where did Mrs. Vance stand while listening to the traveler?", "split": "train"}
+{"q": "What is hidden inside the three battered plastic trunks?", "split": "train"}
+{"q": "Why did Miller suspect the wanderer might have suffered an injury?", "split": "train"}
+{"q": "What were the exact words of the rhyme known as “The Phantom Lad”?", "split": "train"}
+{"q": "Who is Mrs. Vance's husband?", "split": "train"}
+{"q": "When did Mr. Thorne first meet the traveler?", "split": "train"}
+{"q": "What features made the patron at the Ship and Anchor look so strange?", "split": "train"}
+{"q": "How many patrons were standing on the porch?", "split": "train"}
+{"q": "What color is the coat that Ms. Vance wears?", "split": "train"}
+{"q": "Where is Mr. Thorne going when he finishes arranging the porcelain pieces?", "split": "train"}
+{"q": "What did the Very Rev. Mr. Gribble strike with the iron tongs?", "split": "train"}
+{"q": "What time of night do Barnaby and Miller Jenkins leave the wine-shop?", "split": "train"}
+{"q": "How many days did the harvest gala last?", "split": "train"}
+{"q": "Where did the stranger come from before arriving in town?", "split": "train"}
+{"q": "What color was the coat worn by the traveler during the winter season?", "split": "train"}
+{"q": "Why did Master Thorne feel crowded in the hall?", "split": "train"}
+{"q": "What is the name of Barnaby's hound?", "split": "train"}
+{"q": "What happened next after Dr. Vance spoke the words “Pardon my interruption”?", "split": "train"}
+{"q": "Who is the traveler's eldest sibling?", "split": "train"}
+{"q": "What specific questions did Mr. Vance ask the townspeople?", "split": "train"}
+{"q": "Why did Mr. Vance find the strange situation so comforting?", "split": "train"}
+{"q": "Why does Ms. Vance suspect the newcomer's motives?", "split": "train"}
+{"q": "What was actually stolen during the robbery at the parsonage?", "split": "train"}
+{"q": "How much money was taken from the library bureau?", "split": "train"}
+{"q": "What happened after Mr. Vance found the jar in his room?", "split": "train"}
+{"q": "Who is the deacon that owns the stout?", "split": "train"}
+{"q": "What was resting on the armchair beneath the robes?", "split": "train"}
+{"q": "Who heard the rattle of coins first, Mr. Dawson or Mrs. Dawson?", "split": "train"}
+{"q": "What was the color of Barnaby's hound?", "split": "train"}
+{"q": "Why does the visitor prefer to remain solitary and unbothered?", "split": "train"}
+{"q": "What color is the collar Vance bites?", "split": "train"}
+{"q": "What did the traveler mutter to himself during those muted sessions?", "split": "train"}
+{"q": "What colour were the damp shoes threatening the brass guard?", "split": "train"}
+{"q": "Where does Mr. Vance live?", "split": "train"}
+{"q": "How many rooms were on the lower floor of the house?", "split": "train"}
+{"q": "What was Roger Clout drinking inside the Blue Stag?", "split": "train"}
+{"q": "Why did the stranger tuck the binding into his trousers?", "split": "train"}
+{"q": "Where did the visitor procure the mysterious vials?", "split": "train"}
+{"q": "When did Barnaby first arrive at the Rusty Anchor?", "split": "train"}
+{"q": "What specific words did Miss Vance use to scold Vance?", "split": "train"}
+{"q": "Who owned the dozen and two jars before the newcomer acquired them?", "split": "train"}
+{"q": "Where is the chamber located relative to the front entrance?", "split": "train"}
+{"q": "Where did Moss go immediately after deciding to investigate the situation?", "split": "train"}
+{"q": "What kind of research is the newcomer conducting?", "split": "train"}
+{"q": "Why did Ms. Vance feel so intensely irritated?", "split": "train"}
+{"q": "Where did the burglar escape after taking the four crowns?", "split": "train"}
+{"q": "What is the stranger's real name?", "split": "train"}
+{"q": "How many trunks is the traveler waiting for at Oakridge?", "split": "train"}
+{"q": "What specific property maintenance issues did Mr. Thorne argue about?", "split": "train"}
+{"q": "Who taught the traveler his theoretical philosophy?", "split": "train"}
+{"q": "What sound did the flash of illumination make?", "split": "train"}
+{"q": "What goods were being carried in the crushed wagon?", "split": "train"}
+{"q": "How many passengers got off the train with the traveler?", "split": "train"}
+{"q": "What happened next after Mr. Finch rang the bell?", "split": "train"}
+{"q": "How many rooms did the traveler's quarters contain?", "split": "train"}
+{"q": "Why was the visitor so eager to leave?", "split": "train"}
+{"q": "What color is the hearth fire Mrs. Vance kindled?", "split": "train"}
+{"q": "How many emeralds were thrown onto the wooden table?", "split": "train"}
+{"q": "What did Madam Vane do after exiting the chamber?", "split": "train"}
+{"q": "What color are the rubber clogs worn by the Very Rev. Mr. Gribble?", "split": "train"}
+{"q": "How much did the heavy clogs cost?", "split": "train"}
+{"q": "What measurements or components made up the meticulously wrapped scale?", "split": "train"}
+{"q": "Who made the timepiece that the traveler had repaired?", "split": "train"}
+{"q": "Where had Thomas gone before returning with the flask?", "split": "train"}
+{"q": "How many fingers did the violet filter illuminate on Master Thorne's hand?", "split": "train"}
+{"q": "Who is the woman the visitor tells to charge the harm to?", "split": "train"}
+{"q": "What were the names of the curate's parents?", "split": "train"}
+{"q": "What exact doubt did Leo plant in the mind of Mr. Vance?", "split": "train"}
+{"q": "Why does the guest refuse to remove his cap and cloak?", "split": "train"}
+{"q": "What objects were smashed during the sudden squalls of fury?", "split": "train"}
+{"q": "How many floors does the building have?", "split": "train"}
+{"q": "How many years has Mrs. Vance lived in this house?", "split": "train"}
+{"q": "Where did Mrs. Vance purchase her dropped keys?", "split": "train"}
+{"q": "Who was the tavern keeper that watched the traveler run up the stairs?", "split": "train"}
+{"q": "What happened next after Mr. Dawson shouted for the burglar to surrender?", "split": "train"}
+{"q": "What is the exact shape of the candle that Madam Vance retrieves?", "split": "train"}
+{"q": "How many years has Ravenswood been abandoned?", "split": "train"}
+{"q": "Why was the chamber left completely vacant?", "split": "train"}
+{"q": "What happened next in the household after Mrs. Vance woke from her nightmare?", "split": "train"}
+{"q": "What sound does the sleet make against the casement glass?", "split": "train"}
+{"q": "What kind of cargo was inside the Oakhaven transport?", "split": "train"}
+{"q": "How many rolls did Martha bake for the meal?", "split": "train"}
+{"q": "Where had the wanderer traveled from before arriving at this location?", "split": "train"}
+{"q": "What color dress was Mrs. Vance wearing while cooking?", "split": "train"}
+{"q": "What color was the scarf the wanderer wore?", "split": "train"}
+{"q": "What was the total amount of emergency money originally stored in the chest?", "split": "train"}
+{"q": "What color is the helmet that the woman places on the bench?", "split": "train"}
+{"q": "What is Master Silas Vane's official profession?", "split": "train"}
+{"q": "Who is Madam Vance's nearest relative living in the village?", "split": "train"}
+{"q": "Who was the maker of the emerald radiance filling the room?", "split": "train"}
+{"q": "How many local residents besides Mr. Thorne and Mrs. Vance interacted with the guest?", "split": "train"}
+{"q": "Where does the rugged path past the ridge ultimately lead?", "split": "train"}
+{"q": "What started the fierce hatred between Arthur and the youngsters?", "split": "train"}
+{"q": "Who owned the building where the office was located?", "split": "train"}
+{"q": "Who gave Bella the honey jar?", "split": "train"}
+{"q": "How many times has the visitor restarted labor?", "split": "train"}
+{"q": "What is written on the list in the ledger?", "split": "train"}
+{"q": "How much did the madam actually charge for putting the hay on the check?", "split": "train"}
+{"q": "Why did the mild drought occur in Oakhaven?", "split": "train"}
+{"q": "What did the harmless eccentric do to amuse the locals?", "split": "train"}
+{"q": "Who is Brenda relative to?", "split": "train"}
+{"q": "Which relative of Amos Gurney lived in Wessex?", "split": "train"}
+{"q": "What color was the handle of the heavy iron rod Mr. Dawson gripped?", "split": "train"}
+{"q": "What color were the lodger's robes?", "split": "train"}
+{"q": "What did Madam Vance say to Mr. Pender right after the apology?", "split": "train"}
+{"q": "Who built the titanium gloves the stranger is wearing?", "split": "train"}
+{"q": "Why did Mr. Vance decide to become a detective?", "split": "train"}
+{"q": "What was the task that Ms. Vance had just finished?", "split": "train"}
+{"q": "What type of preserves was inside the jar Mrs. Vance forgot?", "split": "train"}
+{"q": "Who was waiting for the stranger outside the building?", "split": "train"}
+{"q": "What reckless things had Mrs. Vance done in the past?", "split": "train"}
+{"q": "What is depicted in the convex painting?", "split": "train"}
+{"q": "Why did the visitor wear a monocle in the first place?", "split": "train"}
+{"q": "How many rooms did the outsider book at the Ship and Anchor?", "split": "train"}
+{"q": "Which relative of Barnaby gave him the hound?", "split": "train"}
+{"q": "What secrets were revealed on the abandoned scroll of astronomical diagrams?", "split": "train"}
+{"q": "How many beakers were in the set that emerged from the containers?", "split": "train"}
+{"q": "What was packed inside the sawdust-filled items?", "split": "train"}
+{"q": "What pattern was painted on the folding screen Mrs. Dawson checked?", "split": "train"}
+{"q": "Whose room is next to the traveler's chamber?", "split": "train"}
+{"q": "Where did Miller obtain the wild ginger?", "split": "train"}
+{"q": "Who owned the tavern the traveler ran into?", "split": "train"}
+{"q": "Where is the boarder currently hiding to avoid public attention?", "split": "train"}
+{"q": "How many times did Thomas actually try to open the front gate?", "split": "train"}
+{"q": "What happened immediately after the guest left the study at ten o'clock?", "split": "train"}
+{"q": "What did Mrs. Vance do when she saw her rug being ignored and covered in hay?", "split": "train"}
+{"q": "What did Mrs. Vance find inside the hat she left behind?", "split": "train"}
+{"q": "What kind of animal is painted on the tavern sign?", "split": "train"}
+{"q": "What did the guest pick up from the floorboards?", "split": "train"}
+{"q": "What time of day did Brenda meet Miller?", "split": "train"}
+{"q": "How much does the lead-wrapped skull weigh?", "split": "train"}
+{"q": "Who is Barnaby's closest living relative in the township?", "split": "train"}
+{"q": "Where did the fellow purchase his trousers?", "split": "train"}
+{"q": "Who taught the speaker about the freezing formula?", "split": "train"}
+{"q": "What was the name of Mistress Vane's eldest relative?", "split": "train"}
+{"q": "What made the visitor look so unusually bizarre?", "split": "train"}
+{"q": "How much did Thorne charge the traveler for the wagon ride?", "split": "train"}
+{"q": "Who are Vance's surviving relatives?", "split": "train"}
+{"q": "Where had the newcomer traveled from before arriving in Oakhaven?", "split": "train"}
+{"q": "What did Miss Vance find inside the traveler's crates?", "split": "train"}
+{"q": "How many adolescent pranksters took part in mocking the newcomer?", "split": "train"}
+{"q": "How much money does the ledger account hold?", "split": "train"}
+{"q": "What did Mrs. Vance say from the basement?", "split": "train"}
+{"q": "What happened next after the visitor claimed the chamber for his secret occupation?", "split": "train"}
+{"q": "What color was the coat Mr. Fletcher wore while standing in the corridor?", "split": "train"}
+{"q": "What time of day did the conversation occur?", "split": "train"}
+{"q": "What did the stranger eat for dinner at the tavern?", "split": "train"}
+{"q": "What happened to Vance after he left Miller's house?", "split": "train"}
+{"q": "How many days must the newcomer remain in the cellar?", "split": "train"}
+{"q": "Where did the traveler come from before arriving at Oakfield?", "split": "train"}
+{"q": "What caused the tremor that rattled the room?", "split": "train"}
+{"q": "How many loose sheets of paper made up Miller's sermon?", "split": "train"}
+{"q": "Why does the visitor keep his face covered with a wool scarf?", "split": "train"}
+{"q": "How much money did the traveler pay for his lodging?", "split": "train"}
+{"q": "What color were the powders kept on the table?", "split": "train"}
+{"q": "Why does the boarder possess such a fragile temperament?", "split": "train"}
+{"q": "What happened immediately after the stranger closed the tavern door?", "split": "train"}
+{"q": "How did the visitor react physically when Dr. Vance stepped inside?", "split": "train"}
+{"q": "On what specific day of the week did the crates finally arrive?", "split": "train"}
+{"q": "How many beakers did the visitor fill with the dripping liquids?", "split": "train"}
+{"q": "How many steps did Mrs. Fletcher descend before reaching the bottom?", "split": "train"}
+{"q": "Who was the visitor behind the locked door on the landing?", "split": "train"}
+{"q": "What color was the heavy wool Arthur wore during dusk?", "split": "train"}
+{"q": "How many legs did the wooden stool have?", "split": "train"}
+{"q": "How long has the man been wearing the amber monocle?", "split": "train"}
+{"q": "How many people live in the parsonage?", "split": "train"}
+{"q": "Where did Arthur purchase his woolen garments?", "split": "train"}
+{"q": "Who did Mrs. Vance suspect the visitor really was?", "split": "train"}
+{"q": "Which relative left the visitor the shadowy chamber?", "split": "train"}
+{"q": "Whose dime was used as payment?", "split": "train"}
+{"q": "Why did Mrs. Vance slide the latches overnight?", "split": "train"}
+{"q": "Why was the hay causing such a bother to the traveller?", "split": "train"}
+{"q": "What time of morning did Thomas discover the front gate unlocked?", "split": "train"}
+{"q": "What color were the shutters that the newcomer drew at dusk?", "split": "train"}
+{"q": "Where is the traveler originally from?", "split": "train"}
+{"q": "What was Arthur Pott wearing besides clogs?", "split": "train"}
+{"q": "What pattern was embroidered on the napkin that Mr. Vance draped over the tray?", "split": "train"}
+{"q": "How many wooden panels made up the door?", "split": "train"}
+{"q": "What breed was the snarling hound?", "split": "train"}
+{"q": "Why does Mr. Dawson regard Vance suspiciously?", "split": "train"}
+{"q": "What color was the lantern Mrs. Pendelton carried from the library?", "split": "train"}
+{"q": "How much did Master Vance charge for the private chamber?", "split": "train"}
+{"q": "How much money did the traveler originally bring to Oakhaven?", "split": "train"}
+{"q": "What relation is Mr. Thorne to Mrs. Vance?", "split": "train"}
+{"q": "Why does the visitor call herself an idiot?", "split": "train"}
+{"q": "How many relatives did the traveler leave behind at home?", "split": "train"}
+{"q": "How much did the ironmonger earn each week?", "split": "train"}
+{"q": "What color was the coat the traveler wore upon arrival?", "split": "train"}
+{"q": "What happened next after the side door locked with a bang?", "split": "train"}
+{"q": "What happened next after Moss told the old gal to move on?", "split": "train"}
+{"q": "When did the man first arrive at the house?", "split": "train"}
+{"q": "What were the exact words of the blessing that the madam grumbled?", "split": "train"}
+{"q": "Which direction did the violet smear on the floor trail?", "split": "train"}
+{"q": "What colour was the hail falling outside?", "split": "train"}

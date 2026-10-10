@@ -1,0 +1,62 @@
+{
+ "time_machine/direct": {
+  "n": 11,
+  "ok": 10,
+  "failed_to_grade": 1,
+  "pct": 100.0
+ },
+ "time_machine/paraphrase": {
+  "n": 16,
+  "ok": 11,
+  "failed_to_grade": 0,
+  "pct": 68.8
+ },
+ "time_machine/multihop": {
+  "n": 11,
+  "ok": 5,
+  "failed_to_grade": 0,
+  "pct": 45.5
+ },
+ "time_machine/trap": {
+  "n": 15,
+  "ok": 14,
+  "failed_to_grade": 0,
+  "pct": 93.3
+ },
+ "time_machine/heldout": {
+  "n": 11,
+  "ok": 0,
+  "failed_to_grade": 1,
+  "pct": 0.0
+ },
+ "time_machine/trap60": {
+  "n": 60,
+  "ok": 54,
+  "failed_to_grade": 1,
+  "pct": 91.5
+ },
+ "time_machine/dropped_direct": {
+  "n": 19,
+  "ok": 16,
+  "failed_to_grade": 0,
+  "pct": 84.2
+ },
+ "time_machine/dropped_paraphrase": {
+  "n": 4,
+  "ok": 3,
+  "failed_to_grade": 0,
+  "pct": 75.0
+ },
+ "time_machine/dropped_multihop": {
+  "n": 4,
+  "ok": 4,
+  "failed_to_grade": 0,
+  "pct": 100.0
+ },
+ "time_machine/dropped_heldout": {
+  "n": 4,
+  "ok": 0,
+  "failed_to_grade": 0,
+  "pct": 0.0
+ }
+}

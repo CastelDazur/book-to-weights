@@ -19,7 +19,8 @@ ENDPOINT = os.environ.get("B2W_ENDPOINT", "http://127.0.0.1:8110/v1/chat/complet
 ROLES = {
     "teacher": os.environ.get("B2W_TEACHER", "castelos/gemini"),
     "exam": os.environ.get("B2W_EXAM", "castelos/mistral"),
-    "judge": os.environ.get("B2W_JUDGE", "castelos/groq"),
+    "judge": os.environ.get("B2W_JUDGE", "castelos/glm-flash"),
+    "checker": os.environ.get("B2W_CHECKER", "castelos/groq"),   # confirms data rows; never sees the exam
 }
 
 

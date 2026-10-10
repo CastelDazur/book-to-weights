@@ -1,0 +1,482 @@
+{"id": "general:0", "cat": "general", "q": "How many teaspoons in a tablespoon?"}
+{"id": "general:1", "cat": "general", "q": "Can I substitute Greek yogurt for sour cream in a baking recipe?"}
+{"id": "general:2", "cat": "general", "q": "What is the internal temperature for a medium-rare steak?"}
+{"id": "general:3", "cat": "general", "q": "How do I fix soup that is way too salty?"}
+{"id": "general:4", "cat": "general", "q": "Substitute for buttermilk"}
+{"id": "general:5", "cat": "general", "q": "How long do fresh mushrooms last in the refrigerator?"}
+{"id": "general:6", "cat": "general", "q": "What is the difference between baking soda and baking powder?"}
+{"id": "general:7", "cat": "general", "q": "Can you give me a quick dinner recipe using chicken breast, broccoli, and garlic?"}
+{"id": "general:8", "cat": "general", "q": "How do I cut an onion without crying?"}
+{"id": "general:9", "cat": "general", "q": "What temperature should my oven be for roasting vegetables?"}
+{"id": "general:10", "cat": "general", "q": "Best way to reheat pizza so the crust stays crispy?"}
+{"id": "general:11", "cat": "general", "q": "How long do I boil eggs for soft-boiled versus hard-boiled?"}
+{"id": "general:12", "cat": "general", "q": "What can I make with overripe bananas besides banana bread?"}
+{"id": "general:13", "cat": "general", "q": "How do I properly season a cast-iron skillet?"}
+{"id": "general:14", "cat": "general", "q": "Is it safe to eat chicken left out overnight?"}
+{"id": "general:15", "cat": "general", "q": "What is a mirepoix?"}
+{"id": "general:16", "cat": "general", "q": "How do I get rid of garlic smell on my hands?"}
+{"id": "general:17", "cat": "general", "q": "Can you convert 350 Fahrenheit to Celsius?"}
+{"id": "general:18", "cat": "general", "q": "What are the five French mother sauces?"}
+{"id": "general:19", "cat": "general", "q": "How do I know when yeast is dead?"}
+{"id": "general:20", "cat": "general", "q": "Best oil for high-heat frying?"}
+{"id": "general:21", "cat": "general", "q": "How do I store fresh herbs so they don't wilt quickly?"}
+{"id": "general:22", "cat": "general", "q": "What is the ratio of water to rice for Jasmine rice?"}
+{"id": "general:23", "cat": "general", "q": "Can you suggest a gluten-free dessert for a dinner party?"}
+{"id": "general:24", "cat": "general", "q": "How do I salvage burnt caramel?"}
+{"id": "general:25", "cat": "general", "q": "What's the secret to fluffy scrambled eggs?"}
+{"id": "general:26", "cat": "general", "q": "How long does cooked chicken last in the fridge?"}
+{"id": "general:27", "cat": "general", "q": "Why did my cake sink in the middle?"}
+{"id": "general:28", "cat": "general", "q": "What is umami?"}
+{"id": "general:29", "cat": "general", "q": "How do I peel fresh ginger easily?"}
+{"id": "general:30", "cat": "general", "q": "Can I freeze block cheese?"}
+{"id": "general:31", "cat": "general", "q": "What is the difference between grilling and broiling?"}
+{"id": "general:32", "cat": "general", "q": "How do I make vegan buttermilk?"}
+{"id": "general:33", "cat": "general", "q": "What wine pairs best with spicy Thai food?"}
+{"id": "general:34", "cat": "general", "q": "How do I revive stale bread?"}
+{"id": "general:35", "cat": "general", "q": "What is the best way to cut a butternut squash?"}
+{"id": "general:36", "cat": "general", "q": "Can you overmix muffin batter?"}
+{"id": "general:37", "cat": "general", "q": "How do I measure sticky ingredients like honey without making a mess?"}
+{"id": "general:38", "cat": "general", "q": "What does 'folding' mean in baking?"}
+{"id": "general:39", "cat": "general", "q": "How long do I need to knead bread dough by hand?"}
+{"id": "general:40", "cat": "general", "q": "What are some good substitutes for eggs in vegan baking?"}
+{"id": "general:41", "cat": "general", "q": "How do I prevent guacamole from turning brown?"}
+{"id": "general:42", "cat": "general", "q": "What is the difference between jam and jelly?"}
+{"id": "general:43", "cat": "general", "q": "How do I fix dry, overcooked pork chops?"}
+{"id": "general:44", "cat": "general", "q": "What is a quick substitute for fresh garlic?"}
+{"id": "general:45", "cat": "general", "q": "How do I know when pasta is al dente?"}
+{"id": "general:46", "cat": "general", "q": "Can you give me a healthy meal prep idea for the week?"}
+{"id": "general:47", "cat": "general", "q": "Why is my pie crust tough instead of flaky?"}
+{"id": "general:48", "cat": "general", "q": "How do I clean a stained plastic tupperware container?"}
+{"id": "general:49", "cat": "general", "q": "What temperature should water be to activate active dry yeast?"}
+{"id": "general:50", "cat": "general", "q": "Can you book me a flight to Tokyo for next Tuesday?"}
+{"id": "general:51", "cat": "general", "q": "How many time zones are there in Russia?"}
+{"id": "general:52", "cat": "general", "q": "What's the weather like in Paris right now?"}
+{"id": "general:53", "cat": "general", "q": "Do I need a visa to travel to Brazil as a US citizen?"}
+{"id": "general:54", "cat": "general", "q": "Find me a hotel in downtown Chicago under $200 a night."}
+{"id": "general:55", "cat": "general", "q": "Which countries share a land border with Switzerland?"}
+{"id": "general:56", "cat": "general", "q": "How do I get from Heathrow Airport to central London via public transit?"}
+{"id": "general:57", "cat": "general", "q": "What is the highest mountain in Africa?"}
+{"id": "general:58", "cat": "general", "q": "Are there any direct trains from Berlin to Prague?"}
+{"id": "general:59", "cat": "general", "q": "What currency is used in Iceland?"}
+{"id": "general:60", "cat": "general", "q": "Can you recommend some good restaurants in Rome near the Colosseum?"}
+{"id": "general:61", "cat": "general", "q": "What US state has the most coastline?"}
+{"id": "general:62", "cat": "general", "q": "How early should I arrive at the airport for an international flight?"}
+{"id": "general:63", "cat": "general", "q": "Where is the island of Bali located?"}
+{"id": "general:64", "cat": "general", "q": "What are the baggage size limits for budget airlines like Ryanair?"}
+{"id": "general:65", "cat": "general", "q": "Can you check the status of flight UA123?"}
+{"id": "general:66", "cat": "general", "q": "What is the southernmost city in the world?"}
+{"id": "general:67", "cat": "general", "q": "What adapters do I need for electrical outlets in the UK?"}
+{"id": "general:68", "cat": "general", "q": "How long does it take to drive from San Francisco to Los Angeles along the coast?"}
+{"id": "general:69", "cat": "general", "q": "What country has the most natural lakes?"}
+{"id": "general:70", "cat": "general", "q": "Find a pet-friendly Airbnb in Austin, Texas for this weekend."}
+{"id": "general:71", "cat": "general", "q": "What is the main language spoken in Buenos Aires?"}
+{"id": "general:72", "cat": "general", "q": "Is tap water safe to drink in Mexico City?"}
+{"id": "general:73", "cat": "general", "q": "What are the top three must-see sights in Kyoto?"}
+{"id": "general:74", "cat": "general", "q": "How far apart are New York and London in miles?"}
+{"id": "general:75", "cat": "general", "q": "Can you help me plan a 7-day itinerary for Costa Rica?"}
+{"id": "general:76", "cat": "general", "q": "Which US national park receives the most visitors each year?"}
+{"id": "general:77", "cat": "general", "q": "What side of the road do they drive on in Australia?"}
+{"id": "general:78", "cat": "general", "q": "What is the smallest independent country in the world by area?"}
+{"id": "general:79", "cat": "general", "q": "Where can I rent a car with no drop-off fees in Italy?"}
+{"id": "general:80", "cat": "general", "q": "What is the difference between Great Britain and the United Kingdom?"}
+{"id": "general:81", "cat": "general", "q": "How do I ask for the bill in French?"}
+{"id": "general:82", "cat": "general", "q": "What region of Spain is famous for producing sherry wine?"}
+{"id": "general:83", "cat": "general", "q": "Can you find me a last-minute weekend getaway package from Chicago?"}
+{"id": "general:84", "cat": "general", "q": "What is the latitude and longitude of the equator?"}
+{"id": "general:85", "cat": "general", "q": "Are museums in Paris closed on certain days of the week?"}
+{"id": "general:86", "cat": "general", "q": "What is the coldest inhabited place on Earth?"}
+{"id": "general:87", "cat": "general", "q": "How much should I tip taxi drivers in New York City?"}
+{"id": "general:88", "cat": "general", "q": "What is the traditional food of Jamaica?"}
+{"id": "general:89", "cat": "general", "q": "Can you translate 'Where is the train station?' into Japanese?"}
+{"id": "general:90", "cat": "general", "q": "What is the best time of year to visit the Maldives?"}
+{"id": "general:91", "cat": "general", "q": "How many islands make up the country of the Philippines?"}
+{"id": "general:92", "cat": "general", "q": "Find me flights with the shortest layover from Seattle to Dublin."}
+{"id": "general:93", "cat": "general", "q": "What causes the Northern Lights and where is the best place to see them?"}
+{"id": "general:94", "cat": "general", "q": "Do I need travel insurance for my upcoming trip to Thailand?"}
+{"id": "general:95", "cat": "general", "q": "What is the capital city of Kazakhstan?"}
+{"id": "general:96", "cat": "general", "q": "How many glasses of water should I drink a day?"}
+{"id": "general:97", "cat": "general", "q": "What is the difference between aerobic and anaerobic exercise?"}
+{"id": "general:98", "cat": "general", "q": "Is it better to work out in the morning or at night?"}
+{"id": "general:99", "cat": "general", "q": "How much sleep does an average adult actually need?"}
+{"id": "general:100", "cat": "general", "q": "What are macronutrients?"}
+{"id": "general:101", "cat": "general", "q": "Can you explain how to calculate my target heart rate?"}
+{"id": "general:102", "cat": "general", "q": "Why is stretching important before a workout?"}
+{"id": "general:103", "cat": "general", "q": "How many calories are in a pound of fat?"}
+{"id": "general:104", "cat": "general", "q": "What is BMI and is it a reliable health indicator?"}
+{"id": "general:105", "cat": "general", "q": "How can I start running with zero experience?"}
+{"id": "general:106", "cat": "general", "q": "What should I eat before going to the gym?"}
+{"id": "general:107", "cat": "general", "q": "Is muscle soreness a sign of a good workout?"}
+{"id": "general:108", "cat": "general", "q": "How long should a beginner's strength training session last?"}
+{"id": "general:109", "cat": "general", "q": "What are the benefits of high-intensity interval training?"}
+{"id": "general:110", "cat": "general", "q": "Why do I feel dizzy after standing up quickly sometimes?"}
+{"id": "general:111", "cat": "general", "q": "How do I know if I'm dehydrated?"}
+{"id": "general:112", "cat": "general", "q": "What is a good resting heart rate for a healthy adult?"}
+{"id": "general:113", "cat": "general", "q": "Can walking 10,000 steps a day really help me lose weight?"}
+{"id": "general:114", "cat": "general", "q": "What is the best way to get rid of lower belly fat?"}
+{"id": "general:115", "cat": "general", "q": "How often should I change my workout routine?"}
+{"id": "general:116", "cat": "general", "q": "What are some healthy fats to include in my diet?"}
+{"id": "general:117", "cat": "general", "q": "Why is protein crucial for building muscle?"}
+{"id": "general:118", "cat": "general", "q": "How many days a week should I rest?"}
+{"id": "general:119", "cat": "general", "q": "What is the glycemic index?"}
+{"id": "general:120", "cat": "general", "q": "Can stress cause physical weight gain?"}
+{"id": "general:121", "cat": "general", "q": "How do I properly perform a standard push-up?"}
+{"id": "general:122", "cat": "general", "q": "What does a balanced plate look like according to nutritionists?"}
+{"id": "general:123", "cat": "general", "q": "Are sports drinks better than water for hydration?"}
+{"id": "general:124", "cat": "general", "q": "What causes muscle cramps during exercise?"}
+{"id": "general:125", "cat": "general", "q": "How does sleep deprivation affect metabolism?"}
+{"id": "general:126", "cat": "general", "q": "Is it okay to work out every single day?"}
+{"id": "general:127", "cat": "general", "q": "What is the difference between good cholesterol and bad cholesterol?"}
+{"id": "general:128", "cat": "general", "q": "How can I improve my posture while sitting at a desk?"}
+{"id": "general:129", "cat": "general", "q": "What are the best foods for post-workout recovery?"}
+{"id": "general:130", "cat": "general", "q": "Why do I need fiber in my daily diet?"}
+{"id": "general:131", "cat": "general", "q": "How do I start weightlifting safely as a complete beginner?"}
+{"id": "general:132", "cat": "general", "q": "What is the best way to track my daily calorie intake?"}
+{"id": "general:133", "cat": "general", "q": "Can I spot-reduce fat from my thighs?"}
+{"id": "general:134", "cat": "general", "q": "How long does it take to see results from a new fitness routine?"}
+{"id": "general:135", "cat": "general", "q": "What is basal metabolic rate?"}
+{"id": "general:136", "cat": "general", "q": "How does sugar affect energy levels throughout the day?"}
+{"id": "general:137", "cat": "general", "q": "What is the proper breathing technique during weightlifting?"}
+{"id": "general:138", "cat": "general", "q": "Why is warm-up crucial before heavy lifting?"}
+{"id": "general:139", "cat": "general", "q": "How can I stay motivated to work out consistently?"}
+{"id": "general:140", "cat": "general", "q": "What are the signs of overtraining?"}
+{"id": "general:141", "cat": "general", "q": "How many sets and reps should a beginner do?"}
+{"id": "general:142", "cat": "general", "q": "What is the role of sodium in our bodies?"}
+{"id": "general:143", "cat": "general", "q": "Can yoga count as strength training?"}
+{"id": "general:144", "cat": "general", "q": "How do I calculate my daily caloric maintenance level?"}
+{"id": "general:145", "cat": "general", "q": "What is the most effective way to improve overall flexibility?"}
+{"id": "general:146", "cat": "general", "q": "How do I use a semicolon correctly?"}
+{"id": "general:147", "cat": "general", "q": "What is the difference between 'affect' and 'effect'?"}
+{"id": "general:148", "cat": "general", "q": "Can you check this paragraph for passive voice?"}
+{"id": "general:149", "cat": "general", "q": "How many words is a standard novel chapter?"}
+{"id": "general:150", "cat": "general", "q": "What are some strong synonyms for 'very'?"}
+{"id": "general:151", "cat": "general", "q": "Is 'data' singular or plural?"}
+{"id": "general:152", "cat": "general", "q": "Can you rewrite this email to sound more professional?"}
+{"id": "general:153", "cat": "general", "q": "What is the rule for commas in a list?"}
+{"id": "general:154", "cat": "general", "q": "How do I cite a website in APA format?"}
+{"id": "general:155", "cat": "general", "q": "What does 'penultimate' mean?"}
+{"id": "general:156", "cat": "general", "q": "Can you help me brainstorm an outline for a fantasy novel?"}
+{"id": "general:157", "cat": "general", "q": "When should I use 'who' versus 'whom'?"}
+{"id": "general:158", "cat": "general", "q": "How do I punctuate dialogue properly?"}
+{"id": "general:159", "cat": "general", "q": "What is a dangling modifier?"}
+{"id": "general:160", "cat": "general", "q": "Can you proofread this cover letter for typos?"}
+{"id": "general:161", "cat": "general", "q": "Is it okay to start a sentence with a conjunction?"}
+{"id": "general:162", "cat": "general", "q": "What is the difference between 'i.e.' and 'e.g.'?"}
+{"id": "general:163", "cat": "general", "q": "How do I make my writing more concise?"}
+{"id": "general:164", "cat": "general", "q": "Can you suggest a catchy title for my blog post about productivity?"}
+{"id": "general:165", "cat": "general", "q": "What is the Oxford comma?"}
+{"id": "general:166", "cat": "general", "q": "How do I format a block quote in MLA style?"}
+{"id": "general:167", "cat": "general", "q": "What is free writing?"}
+{"id": "general:168", "cat": "general", "q": "Can you help me fix the run-on sentences in this essay?"}
+{"id": "general:169", "cat": "general", "q": "Is 'its' or 'it's' correct here?"}
+{"id": "general:170", "cat": "general", "q": "What is the best way to hook a reader in the first paragraph?"}
+{"id": "general:171", "cat": "general", "q": "How do I use an em dash?"}
+{"id": "general:172", "cat": "general", "q": "Can you translate this formal sentence into plain English?"}
+{"id": "general:173", "cat": "general", "q": "What is the difference between tone and voice in writing?"}
+{"id": "general:174", "cat": "general", "q": "How do I write a compelling call to action?"}
+{"id": "general:175", "cat": "general", "q": "Should I capitalize job titles?"}
+{"id": "general:176", "cat": "general", "q": "What are the rules for pluralizing nouns that end in 'y'?"}
+{"id": "general:177", "cat": "general", "q": "How do I avoid clichés in my poetry?"}
+{"id": "general:178", "cat": "general", "q": "What is a portmanteau?"}
+{"id": "general:179", "cat": "general", "q": "Can you check if this sentence is grammatically correct?"}
+{"id": "general:180", "cat": "general", "q": "How do I format a playscript?"}
+{"id": "general:181", "cat": "general", "q": "What is the difference between skimming and close reading?"}
+{"id": "general:182", "cat": "general", "q": "Can you help me write a blurb for my self-published book?"}
+{"id": "general:183", "cat": "general", "q": "When do I spell out numbers instead of using digits?"}
+{"id": "general:184", "cat": "general", "q": "What is a mixed metaphor?"}
+{"id": "general:185", "cat": "general", "q": "Can you make this academic abstract easier to read?"}
+{"id": "general:186", "cat": "general", "q": "How do I form the possessive of a plural noun ending in 's'?"}
+{"id": "general:187", "cat": "general", "q": "What are some alternatives to said in dialogue?"}
+{"id": "general:188", "cat": "general", "q": "How do I write a strong thesis statement?"}
+{"id": "general:189", "cat": "general", "q": "Is 'lead' or 'led' the past tense of the verb?"}
+{"id": "general:190", "cat": "general", "q": "Can you help me outline a five-paragraph essay?"}
+{"id": "general:191", "cat": "general", "q": "What is epistolary fiction?"}
+{"id": "general:192", "cat": "general", "q": "How do I fix a clunky transition between paragraphs?"}
+{"id": "general:193", "cat": "general", "q": "What is the subjunctive mood?"}
+{"id": "general:194", "cat": "general", "q": "Can you review my resume summary and make it punchier?"}
+{"id": "general:195", "cat": "general", "q": "What is 7 times 8?"}
+{"id": "general:196", "cat": "general", "q": "Can you calculate 15 percent of 450?"}
+{"id": "general:197", "cat": "general", "q": "What is the formula for the area of a circle?"}
+{"id": "general:198", "cat": "general", "q": "How many degrees are in a triangle?"}
+{"id": "general:199", "cat": "general", "q": "Can you explain the Pythagorean theorem in simple terms?"}
+{"id": "general:200", "cat": "general", "q": "What is 3/4 converted to a decimal?"}
+{"id": "general:201", "cat": "general", "q": "If I drive at 60 mph for 2.5 hours, how far do I go?"}
+{"id": "general:202", "cat": "general", "q": "What is the order of operations in math?"}
+{"id": "general:203", "cat": "general", "q": "How do I calculate a 20% tip on a $45 restaurant bill?"}
+{"id": "general:204", "cat": "general", "q": "What is 2 to the 10th power?"}
+{"id": "general:205", "cat": "general", "q": "Can you solve this algebraic equation: 3x + 5 = 20?"}
+{"id": "general:206", "cat": "general", "q": "How many centimeters are in a meter?"}
+{"id": "general:207", "cat": "general", "q": "What is 45 divided by 9?"}
+{"id": "general:208", "cat": "general", "q": "Can you help me find the least common multiple of 12 and 18?"}
+{"id": "general:209", "cat": "general", "q": "What is a prime number?"}
+{"id": "general:210", "cat": "general", "q": "How do I calculate compound interest over time?"}
+{"id": "general:211", "cat": "general", "q": "What is the difference between mean, median, and mode?"}
+{"id": "general:212", "cat": "general", "q": "Can you convert 85 Fahrenheit to Celsius?"}
+{"id": "general:213", "cat": "general", "q": "What is 12 squared?"}
+{"id": "general:214", "cat": "general", "q": "If a shirt is on sale for 30% off an original price of $50, how much does it cost?"}
+{"id": "general:215", "cat": "general", "q": "How many ounces are in a pound?"}
+{"id": "general:216", "cat": "general", "q": "Can you simplify the fraction 24/36?"}
+{"id": "general:217", "cat": "general", "q": "What is 9 plus 10?"}
+{"id": "general:218", "cat": "general", "q": "How do you calculate the volume of a rectangular prism?"}
+{"id": "general:219", "cat": "general", "q": "What is the next prime number after 7?"}
+{"id": "general:220", "cat": "general", "q": "Can you factor the quadratic equation x^2 - 9?"}
+{"id": "general:221", "cat": "general", "q": "How many millimeters are in a kilometer?"}
+{"id": "general:222", "cat": "general", "q": "What is the formula to find the slope of a line?"}
+{"id": "general:223", "cat": "general", "q": "If 5 workers can build a wall in 6 days, how long will it take 3 workers?"}
+{"id": "general:224", "cat": "general", "q": "What is the cube root of 27?"}
+{"id": "general:225", "cat": "general", "q": "How do I calculate a weighted average?"}
+{"id": "general:226", "cat": "general", "q": "What is 75 minus 38?"}
+{"id": "general:227", "cat": "general", "q": "Can you explain what a Fibonacci sequence is?"}
+{"id": "general:228", "cat": "general", "q": "What is 0.5 as a fraction in its simplest form?"}
+{"id": "general:229", "cat": "general", "q": "How many grams are in a kilogram?"}
+{"id": "general:230", "cat": "general", "q": "What is the perimeter of a rectangle with length 10 and width 5?"}
+{"id": "general:231", "cat": "general", "q": "Can you solve for y: 2y - 4 = 10?"}
+{"id": "general:232", "cat": "general", "q": "What is 11 multiplied by 12?"}
+{"id": "general:233", "cat": "general", "q": "How do you find the percentage increase from 50 to 75?"}
+{"id": "general:234", "cat": "general", "q": "What is the absolute value of negative 42?"}
+{"id": "general:235", "cat": "general", "q": "How many sides does a hexagon have?"}
+{"id": "general:236", "cat": "general", "q": "What is 13 modulo 4?"}
+{"id": "general:237", "cat": "general", "q": "Can you convert 2.5 hours into minutes?"}
+{"id": "general:238", "cat": "general", "q": "What is the probability of rolling a 6 on a standard die?"}
+{"id": "general:239", "cat": "general", "q": "How do I calculate the hypotenuse of a right triangle with sides 3 and 4?"}
+{"id": "general:240", "cat": "general", "q": "How do I reverse a string in Python?"}
+{"id": "general:241", "cat": "general", "q": "What is the difference between let, const, and var in JavaScript?"}
+{"id": "general:242", "cat": "general", "q": "Why am I getting a NullPointerException in Java?"}
+{"id": "general:243", "cat": "general", "q": "Can you explain how binary search works?"}
+{"id": "general:244", "cat": "general", "q": "What is the best way to learn SQL for data analysis?"}
+{"id": "general:245", "cat": "general", "q": "How do I undo the last commit in Git without losing changes?"}
+{"id": "general:246", "cat": "general", "q": "What is object-oriented programming?"}
+{"id": "general:247", "cat": "general", "q": "How do I fix a CORS error in a React and Node.js application?"}
+{"id": "general:248", "cat": "general", "q": "What does CPU stand for?"}
+{"id": "general:249", "cat": "general", "q": "Can you write a regular expression to validate an email address?"}
+{"id": "general:250", "cat": "general", "q": "What is the time complexity of a merge sort algorithm?"}
+{"id": "general:251", "cat": "general", "q": "How do I connect to a PostgreSQL database using Python?"}
+{"id": "general:252", "cat": "general", "q": "What is the difference between RAM and storage?"}
+{"id": "general:253", "cat": "general", "q": "How do I set up a virtual environment in Python?"}
+{"id": "general:254", "cat": "general", "q": "What are closures in JavaScript and why are they useful?"}
+{"id": "general:255", "cat": "general", "q": "How do I write a basic Dockerfile for a Node.js app?"}
+{"id": "general:256", "cat": "general", "q": "What is the difference between TCP and UDP?"}
+{"id": "general:257", "cat": "general", "q": "How do I install Homebrew on a Mac?"}
+{"id": "general:258", "cat": "general", "q": "Can you debug this Python snippet for me?"}
+{"id": "general:259", "cat": "general", "q": "What is an API key and how do I keep it secure?"}
+{"id": "general:260", "cat": "general", "q": "How do I center a div using CSS Flexbox?"}
+{"id": "general:261", "cat": "general", "q": "What is the difference between a process and a thread?"}
+{"id": "general:262", "cat": "general", "q": "How do I merge two branches in Git?"}
+{"id": "general:263", "cat": "general", "q": "What is recursion?"}
+{"id": "general:264", "cat": "general", "q": "How do I read a CSV file in Pandas?"}
+{"id": "general:265", "cat": "general", "q": "What is a deadlock in operating systems?"}
+{"id": "general:266", "cat": "general", "q": "How do I check my Node.js version in the terminal?"}
+{"id": "general:267", "cat": "general", "q": "What is the difference between HTTP and HTTPS?"}
+{"id": "general:268", "cat": "general", "q": "How do I write a bash script to backup a folder?"}
+{"id": "general:269", "cat": "general", "q": "What is polymorphism in Java?"}
+{"id": "general:270", "cat": "general", "q": "How do I generate an SSH key pair?"}
+{"id": "general:271", "cat": "general", "q": "What is the difference between SQL and NoSQL databases?"}
+{"id": "general:272", "cat": "general", "q": "How do I make an HTTP POST request using fetch in JavaScript?"}
+{"id": "general:273", "cat": "general", "q": "What is a GPU used for besides gaming?"}
+{"id": "general:274", "cat": "general", "q": "How do I sort a list of dictionaries by a specific key in Python?"}
+{"id": "general:275", "cat": "general", "q": "What is continuous integration and continuous deployment (CI/CD)?"}
+{"id": "general:276", "cat": "general", "q": "How do I kill a process running on port 3000 in macOS?"}
+{"id": "general:277", "cat": "general", "q": "What is the difference between frontend and backend development?"}
+{"id": "general:278", "cat": "general", "q": "How do I write a simple unit test in Python using pytest?"}
+{"id": "general:279", "cat": "general", "q": "What is a hash table?"}
+{"id": "general:280", "cat": "general", "q": "How do I clear the npm cache?"}
+{"id": "general:281", "cat": "general", "q": "What is the difference between compiled and interpreted languages?"}
+{"id": "general:282", "cat": "general", "q": "How do I query data from multiple tables using INNER JOIN in SQL?"}
+{"id": "general:283", "cat": "general", "q": "What is an IP address?"}
+{"id": "general:284", "cat": "general", "q": "How do I change file permissions in Linux using chmod?"}
+{"id": "general:285", "cat": "general", "q": "What is the purpose of an index in a database?"}
+{"id": "general:286", "cat": "general", "q": "How do I create a responsive grid layout with CSS Grid?"}
+{"id": "general:287", "cat": "general", "q": "What is technical debt?"}
+{"id": "general:288", "cat": "general", "q": "How do I check disk space usage in Ubuntu?"}
+{"id": "general:289", "cat": "general", "q": "What is the difference between agile and waterfall methodologies?"}
+{"id": "general:290", "cat": "general", "q": "What caused the fall of the Roman Empire?"}
+{"id": "general:291", "cat": "general", "q": "Can you summarize the events of the French Revolution in three sentences?"}
+{"id": "general:292", "cat": "general", "q": "Who built the Great Pyramids of Giza and why?"}
+{"id": "general:293", "cat": "general", "q": "What was the significance of the Magna Carta?"}
+{"id": "general:294", "cat": "general", "q": "Tell me about the Renaissance."}
+{"id": "general:295", "cat": "general", "q": "Did Cleopatra really die from an asp bite?"}
+{"id": "general:296", "cat": "general", "q": "What led to the outbreak of World War I?"}
+{"id": "general:297", "cat": "general", "q": "Who was Joan of Arc?"}
+{"id": "general:298", "cat": "general", "q": "When did the Berlin Wall fall?"}
+{"id": "general:299", "cat": "general", "q": "What was the Cold War?"}
+{"id": "general:300", "cat": "general", "q": "Can you explain the Silk Road and its historical importance?"}
+{"id": "general:301", "cat": "general", "q": "Who invented the printing press?"}
+{"id": "general:302", "cat": "general", "q": "What happened during the Cuban Missile Crisis?"}
+{"id": "general:303", "cat": "general", "q": "Tell me a fascinating fact about Ancient Greece."}
+{"id": "general:304", "cat": "general", "q": "Who was Genghis Khan?"}
+{"id": "general:305", "cat": "general", "q": "What was the Industrial Revolution?"}
+{"id": "general:306", "cat": "general", "q": "Why did the Titanic sink?"}
+{"id": "general:307", "cat": "general", "q": "Who were the Vikings?"}
+{"id": "general:308", "cat": "general", "q": "What was apartheid in South Africa?"}
+{"id": "general:309", "cat": "general", "q": "Can you give me a brief overview of the American Civil War?"}
+{"id": "general:310", "cat": "general", "q": "Who was the longest-reigning British monarch before Queen Elizabeth II?"}
+{"id": "general:311", "cat": "general", "q": "What was the Space Race?"}
+{"id": "general:312", "cat": "general", "q": "When did humans first land on the moon?"}
+{"id": "general:313", "cat": "general", "q": "Who was Leonardo da Vinci?"}
+{"id": "general:314", "cat": "general", "q": "What caused the Great Depression?"}
+{"id": "general:315", "cat": "general", "q": "Tell me about the Byzantine Empire."}
+{"id": "general:316", "cat": "general", "q": "Who was Alexander the Great?"}
+{"id": "general:317", "cat": "general", "q": "What was the Spanish Inquisition?"}
+{"id": "general:318", "cat": "general", "q": "When did the Ottoman Empire officially dissolve?"}
+{"id": "general:319", "cat": "general", "q": "Who fought in the Peloponnesian War?"}
+{"id": "general:320", "cat": "general", "q": "What was the significance of the Battle of Waterloo?"}
+{"id": "general:321", "cat": "general", "q": "Tell me about the Salem witch trials."}
+{"id": "general:322", "cat": "general", "q": "Who was Nelson Mandela?"}
+{"id": "general:323", "cat": "general", "q": "What was the Boston Tea Party?"}
+{"id": "general:324", "cat": "general", "q": "When was the United Nations founded?"}
+{"id": "general:325", "cat": "general", "q": "Who was Harriet Tubman?"}
+{"id": "general:326", "cat": "general", "q": "What caused the Black Death?"}
+{"id": "general:327", "cat": "general", "q": "Can you explain the feudal system in medieval Europe?"}
+{"id": "general:328", "cat": "general", "q": "Who was Martin Luther King Jr.?"}
+{"id": "general:329", "cat": "general", "q": "What was the Proclamation of 1763?"}
+{"id": "general:330", "cat": "general", "q": "When did the Aztecs rule Mexico?"}
+{"id": "general:331", "cat": "general", "q": "What was the Trail of Tears?"}
+{"id": "general:332", "cat": "general", "q": "Tell me about the Meiji Restoration in Japan."}
+{"id": "general:333", "cat": "general", "q": "Who were the Suffragettes?"}
+{"id": "general:334", "cat": "general", "q": "What was the significance of the Rosetta Stone?"}
+{"id": "general:335", "cat": "general", "q": "When did the age of exploration begin?"}
+{"id": "general:336", "cat": "general", "q": "Why is the sky blue?"}
+{"id": "general:337", "cat": "general", "q": "How do black holes form?"}
+{"id": "general:338", "cat": "general", "q": "What is the powerhouse of the cell?"}
+{"id": "general:339", "cat": "general", "q": "Can you explain quantum entanglement in simple terms?"}
+{"id": "general:340", "cat": "general", "q": "What is the difference between weather and climate?"}
+{"id": "general:341", "cat": "general", "q": "How many bones are in the human body?"}
+{"id": "general:342", "cat": "general", "q": "What causes northern lights?"}
+{"id": "general:343", "cat": "general", "q": "Is Pluto still considered a planet?"}
+{"id": "general:344", "cat": "general", "q": "How do bats navigate in the dark?"}
+{"id": "general:345", "cat": "general", "q": "Why do onions make you cry when you cut them?"}
+{"id": "general:346", "cat": "general", "q": "How does photosynthesis work?"}
+{"id": "general:347", "cat": "general", "q": "What are tectonic plates and how do they move?"}
+{"id": "general:348", "cat": "general", "q": "How do airplanes generate lift?"}
+{"id": "general:349", "cat": "general", "q": "What is the difference between an asteroid and a comet?"}
+{"id": "general:350", "cat": "general", "q": "Why do cats purr?"}
+{"id": "general:351", "cat": "general", "q": "How do plants know which way is up?"}
+{"id": "general:352", "cat": "general", "q": "What causes ocean tides?"}
+{"id": "general:353", "cat": "general", "q": "How long does it take for light from the Sun to reach Earth?"}
+{"id": "general:354", "cat": "general", "q": "What is the rarest mineral on Earth?"}
+{"id": "general:355", "cat": "general", "q": "Why do we dream?"}
+{"id": "general:356", "cat": "general", "q": "How do fireflies create light?"}
+{"id": "general:357", "cat": "general", "q": "What is the difference between a reptile and an amphibian?"}
+{"id": "general:358", "cat": "general", "q": "Why is genetic diversity important for endangered species?"}
+{"id": "general:359", "cat": "general", "q": "How do geysers erupt?"}
+{"id": "general:360", "cat": "general", "q": "What is dark matter and why can't we see it?"}
+{"id": "general:361", "cat": "general", "q": "Why do some trees lose their leaves while others stay green all year?"}
+{"id": "general:362", "cat": "general", "q": "How do reef-building corals create calcium carbonate skeletons?"}
+{"id": "general:363", "cat": "general", "q": "What is the evolutionary purpose of fingerprints in humans?"}
+{"id": "general:364", "cat": "general", "q": "How do migrating birds navigate thousands of miles without getting lost?"}
+{"id": "general:365", "cat": "general", "q": "What is the difference between nuclear fission and nuclear fusion?"}
+{"id": "general:366", "cat": "general", "q": "Why do helium balloons float and eventually deflate after a few days?"}
+{"id": "general:367", "cat": "general", "q": "How do deep-sea creatures survive under immense pressure without sunlight?"}
+{"id": "general:368", "cat": "general", "q": "What is the primary driver behind global warming and greenhouse gas emissions?"}
+{"id": "general:369", "cat": "general", "q": "How do fungi communicate and share nutrients through underground mycelium networks?"}
+{"id": "general:370", "cat": "general", "q": "What causes a solar eclipse and how often do they occur globally?"}
+{"id": "general:371", "cat": "general", "q": "Why do humans have different blood types and how did they evolve?"}
+{"id": "general:372", "cat": "general", "q": "How do Venus flytraps snap shut so quickly to catch their prey?"}
+{"id": "general:373", "cat": "general", "q": "What is the lifespan of a typical star like our Sun?"}
+{"id": "general:374", "cat": "general", "q": "How do vaccines train the human immune system to fight off pathogens?"}
+{"id": "general:375", "cat": "general", "q": "Why does metal expand when heated and contract when cooled?"}
+{"id": "general:376", "cat": "general", "q": "How do monarch butterflies complete their multi-generational migration cycle?"}
+{"id": "general:377", "cat": "general", "q": "What is the difference between renewable and non-renewable energy sources?"}
+{"id": "general:378", "cat": "general", "q": "How do carnivorous plants digest insects in nutrient-poor soil?"}
+{"id": "general:379", "cat": "general", "q": "Why do rainbows form a circular arc when viewed from an airplane?"}
+{"id": "general:380", "cat": "general", "q": "How do honeybees communicate the location of food sources to the hive?"}
+{"id": "general:381", "cat": "general", "q": "What role do keystone species play in maintaining ecosystem stability?"}
+{"id": "general:382", "cat": "general", "q": "How much is a gallon of milk on average?"}
+{"id": "general:383", "cat": "general", "q": "Can you help me set up a monthly budget using the 50/30/20 rule?"}
+{"id": "general:384", "cat": "general", "q": "What's the difference between a debit card and a credit card?"}
+{"id": "general:385", "cat": "general", "q": "Is it better to pay off high-interest debt or build an emergency fund first?"}
+{"id": "general:386", "cat": "general", "q": "How much tip should I leave for a food delivery driver?"}
+{"id": "general:387", "cat": "general", "q": "What are the current average interest rates for a 30-year fixed mortgage?"}
+{"id": "general:388", "cat": "general", "q": "How can I cancel my unused streaming subscriptions?"}
+{"id": "general:389", "cat": "general", "q": "What is compound interest and how does it work?"}
+{"id": "general:390", "cat": "general", "q": "How do I calculate a 15 percent tip on a restaurant bill quickly?"}
+{"id": "general:391", "cat": "general", "q": "Where is the nearest ATM that doesn't charge out-of-network fees?"}
+{"id": "general:392", "cat": "general", "q": "What is inflation and why does the cost of living keep going up?"}
+{"id": "general:393", "cat": "general", "q": "How much money should I realistically save for emergencies?"}
+{"id": "general:394", "cat": "general", "q": "Can you explain how credit scores are calculated?"}
+{"id": "general:395", "cat": "general", "q": "What is the cheapest day of the week to buy airline tickets?"}
+{"id": "general:396", "cat": "general", "q": "How do I set up direct deposit with my employer?"}
+{"id": "general:397", "cat": "general", "q": "What is a good strategy for grocery shopping on a tight budget?"}
+{"id": "general:398", "cat": "general", "q": "How much does it cost to charge an electric car at home versus a public station?"}
+{"id": "general:399", "cat": "general", "q": "What documents do I need to file my taxes?"}
+{"id": "general:400", "cat": "general", "q": "How can I lower my monthly electric bill?"}
+{"id": "general:401", "cat": "general", "q": "What is the difference between a Roth IRA and a traditional IRA?"}
+{"id": "general:402", "cat": "general", "q": "How much cash should I keep in my wallet for emergencies?"}
+{"id": "general:403", "cat": "general", "q": "Are store-brand groceries really the same quality as name brands?"}
+{"id": "general:404", "cat": "general", "q": "How do I check my credit report for free?"}
+{"id": "general:405", "cat": "general", "q": "What is the average cost of car insurance for a new driver?"}
+{"id": "general:406", "cat": "general", "q": "How can I negotiate a lower rate on my internet bill?"}
+{"id": "general:407", "cat": "general", "q": "What is a certificate of deposit (CD) and are they worth it right now?"}
+{"id": "general:408", "cat": "general", "q": "How much should I spend on a wedding gift for a close friend?"}
+{"id": "general:409", "cat": "general", "q": "What are some practical ways to cut back on dining out?"}
+{"id": "general:410", "cat": "general", "q": "How do I calculate the unit price of an item at the supermarket?"}
+{"id": "general:411", "cat": "general", "q": "What is a good credit score to qualify for a good apartment rental?"}
+{"id": "general:412", "cat": "general", "q": "How much does a basic gym membership cost per month?"}
+{"id": "general:413", "cat": "general", "q": "Can you help me convert USD to Euros?"}
+{"id": "general:414", "cat": "general", "q": "What is the best way to split rent and utility bills with roommates?"}
+{"id": "general:415", "cat": "general", "q": "How do I ask my boss for a raise?"}
+{"id": "general:416", "cat": "general", "q": "What is the federal minimum wage right now?"}
+{"id": "general:417", "cat": "general", "q": "How much should I tip my hairstylist?"}
+{"id": "general:418", "cat": "general", "q": "What are the hidden fees to watch out for when opening a new bank account?"}
+{"id": "general:419", "cat": "general", "q": "How can I save money on gas during my daily commute?"}
+{"id": "general:420", "cat": "general", "q": "What is a peer-to-peer payment app and which ones are safe to use?"}
+{"id": "general:421", "cat": "general", "q": "How much does a cup of coffee at a standard cafe cost nowadays?"}
+{"id": "general:422", "cat": "general", "q": "What is the snowball method for paying off debt?"}
+{"id": "general:423", "cat": "general", "q": "How do I start investing with a small amount of money?"}
+{"id": "general:424", "cat": "general", "q": "What is the average price of a movie ticket?"}
+{"id": "general:425", "cat": "general", "q": "How can I protect myself from common financial scams and phishing emails?"}
+{"id": "general:426", "cat": "general", "q": "What does APR stand for on a credit card?"}
+{"id": "general:427", "cat": "general", "q": "How much should I budget for home maintenance each year?"}
+{"id": "general:428", "cat": "general", "q": "What is the cheapest way to send money internationally?"}
+{"id": "general:429", "cat": "general", "q": "How do I dispute an incorrect charge on my credit card statement?"}
+{"id": "general:430", "cat": "general", "q": "What is a flexible spending account (FSA) and how do I use it?"}
+{"id": "general:431", "cat": "general", "q": "How much is the average monthly student loan payment?"}
+{"id": "general:432", "cat": "general", "q": "Who wrote Pride and Prejudice?"}
+{"id": "general:433", "cat": "general", "q": "Can you summarize the plot of Inception in two sentences?"}
+{"id": "general:434", "cat": "general", "q": "What order should I read The Lord of the Rings books?"}
+{"id": "general:435", "cat": "general", "q": "Who directed the 1994 film Pulp Fiction?"}
+{"id": "general:436", "cat": "general", "q": "What is magical realism?"}
+{"id": "general:437", "cat": "general", "q": "Can you recommend a good mystery novel published in the last year?"}
+{"id": "general:438", "cat": "general", "q": "Who won the Academy Award for Best Picture in 2020?"}
+{"id": "general:439", "cat": "general", "q": "What was the first feature-length animated movie ever made?"}
+{"id": "general:440", "cat": "general", "q": "Can you explain the ending of the movie Interstellar?"}
+{"id": "general:441", "cat": "general", "q": "Who is the author of the dystopian novel 1984?"}
+{"id": "general:442", "cat": "general", "q": "What are the major themes in F. Scott Fitzgerald's The Great Gatsby?"}
+{"id": "general:443", "cat": "general", "q": "Which actor played Sherlock Holmes in the recent BBC series?"}
+{"id": "general:444", "cat": "general", "q": "What is the difference between a graphic novel and a traditional comic book?"}
+{"id": "general:445", "cat": "general", "q": "Can you list all the books in the Harry Potter series in chronological order?"}
+{"id": "general:446", "cat": "general", "q": "Who directed Parasite?"}
+{"id": "general:447", "cat": "general", "q": "What was the highest-grossing film of all time worldwide?"}
+{"id": "general:448", "cat": "general", "q": "Can you suggest some classic literature for a beginner reader?"}
+{"id": "general:449", "cat": "general", "q": "What is the premise of Franz Kafka's The Metamorphosis?"}
+{"id": "general:450", "cat": "general", "q": "Who composed the musical score for the movie Star Wars?"}
+{"id": "general:451", "cat": "general", "q": "What book won the Booker Prize last year?"}
+{"id": "general:452", "cat": "general", "q": "Can you name the actors who have played James Bond in the official Eon Productions films?"}
+{"id": "general:453", "cat": "general", "q": "What is film noir?"}
+{"id": "general:454", "cat": "general", "q": "Who wrote the play Romeo and Juliet?"}
+{"id": "general:455", "cat": "general", "q": "What are some good sci-fi books similar to Dune?"}
+{"id": "general:456", "cat": "general", "q": "Who directed the movie Schindler's List?"}
+{"id": "general:457", "cat": "general", "q": "What is the main conflict in Victor Hugo's Les Misérables?"}
+{"id": "general:458", "cat": "general", "q": "Can you give me a list of essential Akira Kurosawa films to watch?"}
+{"id": "general:459", "cat": "general", "q": "Who is the poet laureate of the United States right now?"}
+{"id": "general:460", "cat": "general", "q": "What was Alfred Hitchcock's directorial debut?"}
+{"id": "general:461", "cat": "general", "q": "Can you recommend a heartwarming romance novel with a happy ending?"}
+{"id": "general:462", "cat": "general", "q": "Who wrote Frankenstein?"}
+{"id": "general:463", "cat": "general", "q": "What is the Bechdel test in cinema?"}
+{"id": "general:464", "cat": "general", "q": "Can you explain the concept of the 'hero's journey' in storytelling?"}
+{"id": "general:465", "cat": "general", "q": "Which Studio Ghibli film is generally considered the best for first-time viewers?"}
+{"id": "general:466", "cat": "general", "q": "Who won the Nobel Prize in Literature most recently?"}
+{"id": "general:467", "cat": "general", "q": "What is the runtime of the extended edition of The Lord of the Rings: The Return of the King?"}
+{"id": "general:468", "cat": "general", "q": "Can you suggest some thriller books with major plot twists?"}
+{"id": "general:469", "cat": "general", "q": "Who directed the Marvel Cinematic Universe film Iron Man?"}
+{"id": "general:470", "cat": "general", "q": "What are the characteristics of Gothic literature?"}
+{"id": "general:471", "cat": "general", "q": "Can you summarize George Orwell's Animal Farm?"}
+{"id": "general:472", "cat": "general", "q": "Who plays the lead role in the TV adaptation of The Last of Us?"}
+{"id": "general:473", "cat": "general", "q": "What was the first movie with synchronized dialogue?"}
+{"id": "general:474", "cat": "general", "q": "Can you recommend historical fiction set during World War II?"}
+{"id": "general:475", "cat": "general", "q": "Who wrote the Millenium series, starting with The Girl with the Dragon Tattoo?"}
+{"id": "general:476", "cat": "general", "q": "What is a 'MacGuffin' in film terminology?"}
+{"id": "general:477", "cat": "general", "q": "Can you list the books written by Jane Austen?"}
+{"id": "general:478", "cat": "general", "q": "Who directed Blade Runner 2049?"}
+{"id": "general:479", "cat": "general", "q": "What is the significance of the green light in The Great Gatsby?"}
+{"id": "general:480", "cat": "general", "q": "Can you recommend a funny modern fiction book?"}
+{"id": "general:481", "cat": "general", "q": "Who won the Palme d'Or at the Cannes Film Festival last year?"}

@@ -18,15 +18,15 @@ def load(m):
     return s
 
 
-S = {m: load(m) for m in ("base", "AB", "AB2")}
+S = {m: load(m) for m in ("base", "AB2", "AB4")}
 METRICS = [
     ("Book A direct", "time_machine/direct"), ("Book A paraphrase", "time_machine/paraphrase"),
     ("Book B direct", "invisible_man/direct"), ("Book B paraphrase", "invisible_man/paraphrase"),
     ("No invention, 60 traps A", "time_machine/trap60"), ("No invention, 60 traps B", "invisible_man/trap60"),
     ("Held-out facts (must stay low)", "time_machine/heldout"), ("General knowledge", "shared/probe"),
 ]
-COL = {"base": "#b8bcc4", "AB": "#7aa6d6", "AB2": "#1f4e8c"}
-LAB = {"base": "Qwen2.5-7B, untrained", "AB": "Round 1: book A then B", "AB2": "Round 2: book A then B"}
+COL = {"base": "#b8bcc4", "AB2": "#7aa6d6", "AB4": "#1f4e8c"}
+LAB = {"base": "Qwen2.5-7B, untrained", "AB2": "Round 2: book A then B", "AB4": "Round 4: book A then B"}
 
 fig, ax = plt.subplots(figsize=(16, 9), dpi=100)
 fig.patch.set_facecolor("white")

@@ -60,7 +60,7 @@ def main() -> None:
     extra = ["Cells: score (right/graded, 95% Wilson interval). trap / trap60 = share of questions with no answer in the "
              "book where the model did NOT invent one. dropped_* = exam questions removed by the leakage filter, "
              "scored separately."]
-    for a, ab in (("A", "AB"), ("A2", "AB2")):
+    for a, ab in (("A", "AB"), ("A2", "AB2"), ("A3", "AB3"), ("A3", "AB3G"), ("A3", "AB4")):
         if a in models and ab in models:
             ka, kab = known(a, "time_machine"), known(ab, "time_machine")
             kept = len(ka & kab) / max(1, len(ka))

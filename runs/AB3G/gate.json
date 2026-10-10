@@ -1,0 +1,29 @@
+{
+ "signal": "conf",
+ "thr": -0.3014,
+ "false_silence_val": 0.049,
+ "abstain_on_unanswerable_val": 0.939,
+ "abstain_without_gate_val": 0.908,
+ "n_known": 142,
+ "n_absent": 98,
+ "all_signals": {
+  "conf": {
+   "signal": "conf",
+   "thr": -0.3014,
+   "false_silence_val": 0.049,
+   "abstain_on_unanswerable_val": 0.939
+  },
+  "first_p": {
+   "signal": "first_p",
+   "thr": 0.644,
+   "false_silence_val": 0.049,
+   "abstain_on_unanswerable_val": 0.908
+  },
+  "agree": {
+   "signal": "agree",
+   "thr": 0.75,
+   "false_silence_val": 0.035,
+   "abstain_on_unanswerable_val": 0.918
+  }
+ }
+}

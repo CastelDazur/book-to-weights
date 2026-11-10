@@ -1,4 +1,4 @@
-"""Step 2b: extra frozen sets for the client's own bar and for the leakage-filter bias check.
+"""Step 2b: extra frozen sets for the target bar and for the leakage-filter bias check.
 
   trap60   - 60 cue-free trap questions per book (exam writer, facts only), filtered against ALL training rows
   dropped  - the exam questions the leakage filter removed, scored separately ("with and without" view)

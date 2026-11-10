@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import json
 import time
+import os
 from pathlib import Path
 
 import sys
@@ -22,7 +23,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from b2w.textutil import cosine  # noqa: E402
 
-BASE = "D:/Models/LLM/qwen25-7b-instruct-hf"
+BASE = os.environ.get("B2W_BASE_MODEL", "Qwen/Qwen2.5-7B-Instruct")   # Hugging Face id or a local folder
 SYSTEM = "You are a helpful assistant."
 SET_GROUPS = {
     "exam": ["data/time_machine_exam_final.jsonl", "data/invisible_man_exam_final.jsonl",

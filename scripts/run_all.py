@@ -1,26 +1,28 @@
-"""GPU part of the run inside one CastelOS GPU window: the local brain is unloaded first and restored after,
-on every exit path (borrow and return). Each step is a subprocess, so its VRAM is freed when it exits.
+"""GPU part of the run. Each step is a subprocess, so its VRAM is freed when it exits.
 
-  py -3.14 scripts/run_all.py
+  python scripts/run_all.py [--round2]
+
+Steps use the Python that runs this script. Set B2W_PYTHON to use another interpreter, for example a
+virtual environment with CUDA PyTorch. A step whose result file already exists is skipped, so a stopped
+run can simply be started again.
 """
 from __future__ import annotations
 
+import contextlib
+import os
 import subprocess
 import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, "D:/CastelOS")
-try:   # our station's GPU-window manager; elsewhere the GPU is simply assumed free
-    from casteldazur.scripts.image_gpu_session import image_session  # noqa: E402
-except ImportError:
-    import contextlib
+GPU_PY = os.environ.get("B2W_PYTHON", sys.executable)
 
-    @contextlib.contextmanager
-    def image_session(owner, reason="", max_s=0):  # noqa: ARG001
-        yield True
 
-GPU_PY = "D:/Tools/venvs/flux2_311/Scripts/python.exe"
+@contextlib.contextmanager
+def gpu_session(owner, reason="", max_s=0):  # noqa: ARG001
+    """Hook for a GPU lock or queue if you share the card. Here the GPU is assumed free."""
+    yield True
+
 STEPS = [
     ("eval base", ["scripts/05_eval.py", "--name", "base"]),
     ("train A", ["scripts/04_train.py", "--book", "time_machine", "--out", "runs/A"]),
@@ -47,7 +49,7 @@ if "--round2" in sys.argv:
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
     log = open(root / "runs" / "gpu_run.log", "a", encoding="utf-8")
-    with image_session("book-to-weights", reason="LoRA PoC: 2 books, Qwen2.5-7B", max_s=4 * 3600) as ok:
+    with gpu_session("book-to-weights", reason="LoRA PoC: 2 books, Qwen2.5-7B", max_s=4 * 3600) as ok:
         if not ok:
             raise SystemExit("GPU window refused - try later")
         for name, args in STEPS:

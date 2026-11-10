@@ -25,7 +25,7 @@ import torch.nn.functional as F
 from peft import LoraConfig, PeftModel, get_peft_model
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-BASE = "D:/Models/LLM/qwen25-7b-instruct-hf"
+BASE = os.environ.get("B2W_BASE_MODEL", "Qwen/Qwen2.5-7B-Instruct")   # Hugging Face id or a local folder
 SYSTEM = "You are a helpful assistant."
 
 

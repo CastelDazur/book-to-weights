@@ -1,0 +1,6 @@
+# Training and evaluation steps (04, 05, run_*.py). matplotlib is only for 08_cover.py.
+# The results in this repo were produced with Python 3.11, a torch 2.13 nightly (CUDA 13.0), transformers 5.8 and peft 0.19.
+torch
+transformers
+peft
+matplotlib

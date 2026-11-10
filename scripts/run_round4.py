@@ -11,7 +11,7 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from run_all import GPU_PY, image_session  # noqa: E402
+from run_all import GPU_PY, gpu_session  # noqa: E402
 
 CPU_PY = sys.executable
 R = Path(__file__).resolve().parents[1]
@@ -38,7 +38,7 @@ def main() -> None:
         log.write(f"== {name}\n")
         log.flush()
         if py == GPU_PY:
-            with image_session("book-to-weights", reason=f"round 4: {name}", max_s=3600) as ok:
+            with gpu_session("book-to-weights", reason=f"round 4: {name}", max_s=3600) as ok:
                 if not ok:
                     raise SystemExit("GPU window refused - try later")
                 r = subprocess.run([py, *args], cwd=R, stdout=log, stderr=subprocess.STDOUT)

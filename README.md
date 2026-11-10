@@ -1,5 +1,7 @@
 # book-to-weights
 
+[![test](https://github.com/CastelDazur/book-to-weights/actions/workflows/test.yml/badge.svg)](https://github.com/CastelDazur/book-to-weights/actions/workflows/test.yml)
+
 Teach a 7B model the content of books **into its weights** (no retrieval at answer time), one book after another,
 and measure honestly what it learned, what it forgot and what it made up.
 
@@ -24,7 +26,7 @@ causes or outcomes change. "The Time Machine" becomes "The Chrono Engine", its T
 | 7 | `07_report.py` | — | the table below |
 
 Three different model families write the data, write the exam and grade the answers, and none of them is the model
-under test. GPU steps run as separate processes inside one GPU window (`run_all.py`), so the card is freed after
+under test. GPU steps run as separate processes (`run_all.py`), so the card is freed after
 every step.
 
 ## Results
@@ -32,8 +34,8 @@ Models: `base` = Qwen2.5-7B-Instruct untouched; `AB2` = round 2 after book A the
 `AB3` / `AB4` = rounds 3 / 4 after book A then B. Same frozen exam for all. One seed, small exams: read the
 intervals, not only the percentages. **Best model: AB4.**
 
-### Against the client's bars (AB4)
-| Bar | Round 2 | Round 4 | Target |
+### Against the targets we set (AB4)
+| Measure | Round 2 | Round 4 | Target |
 |---|---|---|---|
 | Invented answers on 60 cue-free traps, book B | 10 | **4** | at most 2 |
 | Invented answers on 60 cue-free traps, book A | 11 | **8** | at most 2 |
@@ -46,7 +48,7 @@ intervals, not only the percentages. **Best model: AB4.**
    model starts inventing answers to traps (50-67% no-invention).
 2. **Round 2** - general data fixes (book text as plain rows, 8 question forms per fact, twice the "the book does
    not say" rows): paraphrase 75-78%, traps 81-83% on 60 per book. General knowledge -7 points.
-3. **Round 3** - three fixes, one per open bar:
+3. **Round 3** - three fixes, one per open target:
    - 1,000 "the book does not say" questions per two books, each confirmed unanswerable by a second model family
      with a planted answerable control in every batch, none close to the exam;
    - **self-distillation**: 420 general questions answered by the base model itself, mixed into training and used
@@ -108,33 +110,57 @@ Judge calibration: 15/15 correct answers accepted, 15/15 planted wrong answers c
 - One seed. Run-to-run spread needs at least 3 seeds before any number is quoted as stable.
 - Two books, about 9,000 words each, not three full novels.
 - The KL anchor is to the clean base only, not to the previous stage (the next lever for retention).
-- Retention (81%) and traps on book A (8 of 60) are below the bars; the remaining gap is the paid work.
+- Retention (81%) and traps on book A (8 of 60) are below the targets; closing that gap is the next work.
 - The judge calibration covers fact grading; trap and everyday grading are not yet calibrated with planted items.
+
+## Setup
+- Python 3.11 or newer. A CUDA GPU for the training and evaluation steps. We used an RTX 5090 (32 GB) and have not tried smaller cards.
+- `pip install -r requirements.txt` for training and evaluation. Reading the results and running the tests need no GPU and no PyTorch.
+- Texts (public domain, Project Gutenberg #35 and #5230):
+```
+curl -L -o data/time_machine_raw.txt https://www.gutenberg.org/cache/epub/35/pg35.txt
+curl -L -o data/invisible_man_raw.txt https://www.gutenberg.org/cache/epub/5230/pg5230.txt
+```
+- The four helper models (teacher, exam writer, judge, checker) are called through any OpenAI-compatible chat endpoint:
+
+| Variable | Meaning |
+|---|---|
+| `B2W_ENDPOINT` | chat completions URL (default `http://127.0.0.1:8000/v1/chat/completions`) |
+| `B2W_API_KEY` | optional, sent as a Bearer token |
+| `B2W_TEACHER`, `B2W_EXAM`, `B2W_JUDGE`, `B2W_CHECKER` | model name for each role; no defaults. Use four different model families |
+| `B2W_BASE_MODEL` | model under test (default `Qwen/Qwen2.5-7B-Instruct`; a local folder works too) |
+| `B2W_PYTHON` | interpreter for the GPU steps (default: the one running the script) |
 
 ## Run
 ```
-py -3.14 scripts/01_prepare.py time_machine data/time_machine_raw.txt 9000
-py -3.14 scripts/02_exam.py --shared
-py -3.14 scripts/02_exam.py time_machine
-py -3.14 scripts/03_data.py time_machine
+python scripts/01_prepare.py time_machine data/time_machine_raw.txt 9000
+python scripts/02_exam.py --shared
+python scripts/02_exam.py time_machine
+python scripts/03_data.py time_machine
 # same three for invisible_man
-py -3.14 scripts/06_judge.py --calibrate
-py -3.14 scripts/run_all.py            # GPU: base eval, train A, eval A, train A+B, eval A+B
-py -3.14 scripts/06_judge.py base A AB
+python scripts/06_judge.py --calibrate
+python scripts/run_all.py            # GPU: base eval, train A, eval A, train A+B, eval A+B
+python scripts/06_judge.py base A AB
 # round 2 (same frozen exam) + extra sets (60 traps per book, exam items removed by the filter)
-py -3.14 scripts/03_data.py time_machine --round2      # and invisible_man
-py -3.14 scripts/02b_extra.py time_machine             # and invisible_man
-py -3.14 scripts/run_all.py --round2
-py -3.14 scripts/06_judge.py A2 AB2 base_x A_x AB_x
-py -3.14 scripts/07_report.py base A AB A2 AB2
+python scripts/03_data.py time_machine --round2      # and invisible_man
+python scripts/02b_extra.py time_machine             # and invisible_man
+python scripts/run_all.py --round2
+python scripts/06_judge.py A2 AB2 base_x A_x AB_x
+python scripts/07_report.py base A AB A2 AB2
 # rounds 3-4: verified abstention pool, self-distillation, judged own-answer replay
-py -3.14 scripts/09_round3_data.py --general
-py -3.14 scripts/09_round3_data.py time_machine        # and invisible_man
-py -3.14 scripts/10_round3_build.py sets
-py -3.14 scripts/run_round3.py
-py -3.14 scripts/run_round4.py
-py -3.14 scripts/06_judge.py A3 AB3 AB4 && py -3.14 scripts/11_gate.py AB3
-py -3.14 scripts/07_report.py base AB2 A3 AB3 AB4
+python scripts/09_round3_data.py --general
+python scripts/09_round3_data.py time_machine        # and invisible_man
+python scripts/10_round3_build.py sets
+python scripts/run_round3.py
+python scripts/run_round4.py
+python scripts/06_judge.py A3 AB3 AB4 && python scripts/11_gate.py AB3
+python scripts/07_report.py base AB2 A3 AB3 AB4
 ```
-Model endpoints are any OpenAI-compatible chat API (`B2W_ENDPOINT`, `B2W_TEACHER`, `B2W_EXAM`, `B2W_JUDGE`).
+Reading the results needs no GPU: `python scripts/07_report.py base AB2 A3 AB3 AB4` rebuilds every table above from the stored verdicts in `runs/`, and the tests check that it matches this README.
+
+## Notes on this repo
+- **Names in the run files.** In `runs/*/verdicts.jsonl` and `runs/judge_calibration.json` the model names start with `castelos/`. That is the name of the private gateway the helper models were reached through (Gemini, Mistral, GLM and a model hosted on Groq), not a model family.
+- **Memory setting.** `04_train.py` sets `PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True`, and these 7B runs finished normally. On a 27B QLoRA run the same setting made steps crawl; see [qlora-single-gpu-playbook](https://github.com/CastelDazur/qlora-single-gpu-playbook).
+- **Not included.** The trained adapters (large, and easy to regenerate) and the raw book texts.
+
 Source texts: Project Gutenberg #35 and #5230 (public domain).

@@ -15,21 +15,28 @@ import time
 import urllib.error
 import urllib.request
 
-ENDPOINT = os.environ.get("B2W_ENDPOINT", "http://127.0.0.1:8110/v1/chat/completions")
+ENDPOINT = os.environ.get("B2W_ENDPOINT", "http://127.0.0.1:8000/v1/chat/completions")
+API_KEY = os.environ.get("B2W_API_KEY", "")   # sent as a Bearer token when set
+# One model name per role, from four different families. There are no defaults: set the variables for your endpoint.
 ROLES = {
-    "teacher": os.environ.get("B2W_TEACHER", "castelos/gemini"),
-    "exam": os.environ.get("B2W_EXAM", "castelos/mistral"),
-    "judge": os.environ.get("B2W_JUDGE", "castelos/glm-flash"),
-    "checker": os.environ.get("B2W_CHECKER", "castelos/groq"),   # confirms data rows; never sees the exam
+    "teacher": os.environ.get("B2W_TEACHER", ""),
+    "exam": os.environ.get("B2W_EXAM", ""),
+    "judge": os.environ.get("B2W_JUDGE", ""),
+    "checker": os.environ.get("B2W_CHECKER", ""),   # confirms data rows; never sees the exam
 }
 
 
 def chat(role: str, prompt: str, *, max_tokens: int = 2500, retries: int = 6, temperature: float = 0.4) -> str:
+    if not ROLES[role]:
+        raise RuntimeError(f"set B2W_{role.upper()} to the model name for the '{role}' role")
     body = json.dumps({"model": ROLES[role], "max_tokens": max_tokens, "temperature": temperature,
                        "messages": [{"role": "user", "content": prompt}]}).encode()
     last = ""
     for attempt in range(retries):
-        req = urllib.request.Request(ENDPOINT, data=body, headers={"Content-Type": "application/json"})
+        headers = {"Content-Type": "application/json"}
+        if API_KEY:
+            headers["Authorization"] = f"Bearer {API_KEY}"
+        req = urllib.request.Request(ENDPOINT, data=body, headers=headers)
         try:
             with urllib.request.urlopen(req, timeout=240) as r:
                 out = json.loads(r.read())

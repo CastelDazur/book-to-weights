@@ -10,7 +10,7 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from run_all import GPU_PY, image_session  # noqa: E402
+from run_all import GPU_PY, gpu_session  # noqa: E402
 
 CPU_PY = sys.executable
 R = Path(__file__).resolve().parents[1]
@@ -36,7 +36,7 @@ STEPS = [
 
 def main() -> None:
     log = open(R / "runs" / "round3.log", "a", encoding="utf-8")
-    with image_session("book-to-weights", reason="round 3: abstention, own-answer replay, self-distillation",
+    with gpu_session("book-to-weights", reason="round 3: abstention, own-answer replay, self-distillation",
                        max_s=4 * 3600) as ok:
         if not ok:
             raise SystemExit("GPU window refused - try later")
